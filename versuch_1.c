@@ -3,8 +3,6 @@
  *
  *  Created on: Dec 26, 2021
  *      Author: osboxes
- *  test comment
- *  jessi test
  */
 
 #include <stdio.h>
@@ -25,6 +23,13 @@ int main() {
 
 
 	int a = strlen(wort);
+	int e;
+    char unterstrich[a];
+    printf("Das Wort: ");
+    for(e=0; e < a; e++) {
+    	printf("_ ");
+    }
+    printf("\n");
 
 
 	int c;
@@ -34,26 +39,31 @@ int main() {
 		printf("Gib einen Buchstaben ein: ");
 		scanf(" %c", &buchstabe);
 		printf("Der eingegebene Buchstabe ist: %c\n", buchstabe);
-		for(j = 0; j < a; ++j){
-			if(wort[0][j] == buchstabe) {
-				printf("hurra\n");
 
-				for ( c = j; c < a - 1 ; c++ ){
-					wort[0][c] = wort[0][c+1];
+		int k;
+		for (k = 0; k < 3; k++) {
+			for(j = 0; j < a; ++j){
+				if(wort[0][j] == buchstabe) {
+					printf("hurra\n");
+
+					for ( c = j; c < a ; c++ ){
+						wort[0][c] = wort[0][c+1];
+					}
+					a = a-1;
 				}
-			}
-			else {
+				/*else {
 
-				b = false;
-			}
-			printf("Restwort ist\n");
+					b = false;
+				}*/
+				//printf("Restwort ist\n");
 
-			for( c = 0 ; c < a - 1 ; c++ ){
-				printf("%c\n", wort[                                                                                                                                                                                                                                                         n0][c]);
 			}
 		}
-		if (!b) {
-			printf("\nVersuche es noch einmal bitte!");
+		for( c = 0 ; c < a ; c++ ){
+			printf("%c", wort[0][c]);
+		}
+		if (a != 0) {
+			printf("\nVersuche es noch einmal bitte, du hast noch %d Versuche!", a);
 		}
 		printf("\n");
 	}
