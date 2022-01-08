@@ -7,6 +7,28 @@
 
 #include <stdio.h>
 #include <string.h>
+#include <ctype.h>
+#include <termios.h>
+#include <unistd.h>
+
+int getch () {
+    int ch;
+    struct termios tc_attrib;
+    if (tcgetattr(STDIN_FILENO, &tc_attrib))
+        return -1;
+
+    tcflag_t lflag = tc_attrib.c_lflag;
+    tc_attrib.c_lflag &= ~ICANON & ~ECHO;
+
+    if (tcsetattr(STDIN_FILENO, TCSANOW, &tc_attrib))
+        return -1;
+
+    ch = getchar();
+
+    tc_attrib.c_lflag = lflag;
+    tcsetattr (STDIN_FILENO, TCSANOW, &tc_attrib);
+    return ch;
+}
 
 struct Wortspiel {
 	int anzahl_versuche;
@@ -29,15 +51,25 @@ int zeigewort(struct Wortspiel *w) {
 
 int main() {
 	char wort[100];
-	int i;
+    char ch = ' ';
+	int i = 0;
 	int j;
 	struct Wortspiel wortspiel1;
 	
 	//Wort das erraten werden soll, wählen
 	printf("\nGeben Sie ein Wort ein: ");
-	fflush(stdout);
-	scanf("%s", wort);
-
+	while (i<=10){
+        wort[i] = getch();
+        ch = wort[i];
+        if(ch=='\n') {
+            break;
+        }
+        else {
+            printf("*");
+        }
+        i++;
+    }
+    wort[i]='\0';
 
 	int a = strlen(wort);
 	int e;
@@ -47,7 +79,7 @@ int main() {
     for(e=0; e < a; e++) {
 		wortspiel1.erratenes_wort[e] = '_';
     }
-	printf("Die Wortlaenge ist %d\n", wortspiel1.wortlaenge);
+	printf("\nDie Wortlaenge ist %d\n", wortspiel1.wortlaenge);
 	zeigewort(&wortspiel1);
 
 	int c;
