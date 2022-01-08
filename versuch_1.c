@@ -2,14 +2,14 @@
  * versuch_1.c
  *
  *  Created on: Dec 26, 2021
- *      Author: osboxes
+ *  Author: osboxes
  */
 
 #include <stdio.h>
-#include <stdlib.h>
+//#include <stdlib.h>
 #include <string.h>
-#include <time.h>
-#include <stdbool.h>
+//#include <time.h>
+//#include <stdbool.h>
 
 struct Wortspiel {
 	int anzahl_versuche;
@@ -56,14 +56,15 @@ int main() {
 
 	int c;
 	int anzahl_richtiger_buchstaben = 0;
-	for(i=0; i < wortspiel1.anzahl_versuche; i++) {
-		bool b = false;
+	for(i=0; i <= wortspiel1.anzahl_versuche; ++i) {
+		
 		char buchstabe;
 		if (anzahl_richtiger_buchstaben == a){
 			printf("hip hip hurra. Alles richtig.\n");
 			break;
 		}
 		printf("Gib einen Buchstaben ein: ");
+		fflush(stdout);
 		scanf(" %c", &buchstabe);
 		wortspiel1.eingaben_buchstabe[0] = buchstabe;
 		printf("Der eingegebene Buchstabe ist: %c\n", wortspiel1.eingaben_buchstabe[0]);
@@ -76,26 +77,30 @@ int main() {
 				wortspiel1.erratenes_wort[j] = wortspiel1.eingaben_buchstabe[0];
 				gefunden += 1;
 				anzahl_richtiger_buchstaben += 1;
-				wortspiel1.anzahl_versuche = wortspiel1.anzahl_versuche + 1;
+				i--;
+				
 				
 			}
 		}
-		wortspiel1.anzahl_versuche = wortspiel1.anzahl_versuche - 1;
+		wortspiel1.anzahl_versuche = wortspiel1.anzahl_versuche + gefunden;
 		printf("%d Versuche wurden aufgrund richtiger Eingabe gutgeschrieben.\n", gefunden);
 		
 		
-		if (wortspiel1.anzahl_versuche != 0) {
-			printf("\nVersuche es noch einmal bitte, du hast noch %d Versuche!\n", wortspiel1.anzahl_versuche);
+		if (wortspiel1.anzahl_versuche - i != 0) {
+			if (i == 0) {
+				i++;
+			}
+			printf("\nVersuche es noch einmal bitte, du hast noch %d Versuche!\n", wortspiel1.anzahl_versuche - i);
 		}
 		else {
-			printf("ende, vorbei, keine Versuche mehr.");
+			printf("ende, vorbei, keine Versuche mehr.\n");
 			break;	
 		}
 		zeigewort(&wortspiel1);
 		printf("\n");
 	}
 
-	printf("Game over.");
+	printf("Game over.\n");
 
 	return 0;
 
