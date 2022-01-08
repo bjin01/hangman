@@ -11,64 +11,91 @@
 #include <time.h>
 #include <stdbool.h>
 
+struct Wortspiel {
+	int anzahl_versuche;
+	char eingaben_buchstabe[1];
+	char erratenes_wort[100];
+};
+
+
+int zeigewort(struct Wortspiel *w) {
+	int wortlength = strlen(w -> erratenes_wort);
+	int s;
+	printf("Das errate Wort ist: ");
+	for (s = 0; s < wortlength; s++) {
+		printf("%c ", w -> erratenes_wort[s]);
+	}
+	printf("\n");
+	return 0;
+}
+
 int main() {
-	char wort[1][100];
+	char wort[100];
 	int i;
 	int j;
-
+	struct Wortspiel wortspiel1;
+	
 	//Wort das erraten werden soll, wählen
 	printf("\nGeben Sie ein Wort ein: ");
 	fflush(stdout);
-	scanf("%s", &wort);
+	scanf("%s", wort);
 
 
 	int a = strlen(wort);
 	int e;
     char unterstrich[a];
-    printf("Das Wort: ");
+	wortspiel1.anzahl_versuche = a*2;
+    //printf("Das Wort: ");
     for(e=0; e < a; e++) {
-    	printf("_ ");
+		wortspiel1.erratenes_wort[e] = '_';
+		//printf("%c",wortspiel1.erratenes_wort[e]);
+    	//printf(" ");
     }
-    printf("\n");
-
+	//printf("\n");
+	zeigewort(&wortspiel1);
 
 	int c;
-	for(i=0; i < a; i++) {
+	int anzahl_richtiger_buchstaben = 0;
+	for(i=0; i < wortspiel1.anzahl_versuche; i++) {
 		bool b = false;
 		char buchstabe;
+		if (anzahl_richtiger_buchstaben == a){
+			printf("hip hip hurra. Alles richtig.\n");
+			break;
+		}
 		printf("Gib einen Buchstaben ein: ");
 		scanf(" %c", &buchstabe);
-		printf("Der eingegebene Buchstabe ist: %c\n", buchstabe);
+		wortspiel1.eingaben_buchstabe[0] = buchstabe;
+		printf("Der eingegebene Buchstabe ist: %c\n", wortspiel1.eingaben_buchstabe[0]);
 
-		int k;
-		for (k = 0; k < 3; k++) {
-			for(j = 0; j < a; ++j){
-				if(wort[0][j] == buchstabe) {
-					printf("hurra\n");
+		int gefunden = 0;
 
-					for ( c = j; c < a ; c++ ){
-						wort[0][c] = wort[0][c+1];
-					}
-					a = a-1;
-				}
-				/*else {
-
-					b = false;
-				}*/
-				//printf("Restwort ist\n");
-
+		for(j = 0; j < a; j++){
+			if(wort[j] == wortspiel1.eingaben_buchstabe[0]) {
+				printf("hurra\n");
+				wortspiel1.erratenes_wort[j] = wortspiel1.eingaben_buchstabe[0];
+				gefunden += 1;
+				anzahl_richtiger_buchstaben += 1;
+				wortspiel1.anzahl_versuche = wortspiel1.anzahl_versuche + 1;
+				
 			}
 		}
-		for( c = 0 ; c < a ; c++ ){
-			printf("%c", wort[0][c]);
+		wortspiel1.anzahl_versuche = wortspiel1.anzahl_versuche - 1;
+		printf("%d Versuche wurden aufgrund richtiger Eingabe gutgeschrieben.\n", gefunden);
+		
+		
+		if (wortspiel1.anzahl_versuche != 0) {
+			printf("\nVersuche es noch einmal bitte, du hast noch %d Versuche!\n", wortspiel1.anzahl_versuche);
 		}
-		if (a != 0) {
-			printf("\nVersuche es noch einmal bitte, du hast noch %d Versuche!", a);
+		else {
+			printf("ende, vorbei, keine Versuche mehr.");
+			break;	
 		}
+		zeigewort(&wortspiel1);
 		printf("\n");
 	}
 
-	printf("ende, vorbei.");
+	printf("Game over.");
 
 	return 0;
 
