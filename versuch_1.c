@@ -6,10 +6,7 @@
  */
 
 #include <stdio.h>
-//#include <stdlib.h>
 #include <string.h>
-//#include <time.h>
-//#include <stdbool.h>
 
 struct Wortspiel {
 	int anzahl_versuche;
@@ -21,7 +18,7 @@ struct Wortspiel {
 int zeigewort(struct Wortspiel *w) {
 	int wortlength = strlen(w -> erratenes_wort);
 	int s;
-	printf("Das errate Wort ist: ");
+	printf("Das erratene Wort ist: ");
 	for (s = 0; s < wortlength; s++) {
 		printf("%c ", w -> erratenes_wort[s]);
 	}
@@ -45,13 +42,11 @@ int main() {
 	int e;
     char unterstrich[a];
 	wortspiel1.anzahl_versuche = a*2;
-    //printf("Das Wort: ");
+
     for(e=0; e < a; e++) {
 		wortspiel1.erratenes_wort[e] = '_';
-		//printf("%c",wortspiel1.erratenes_wort[e]);
-    	//printf(" ");
     }
-	//printf("\n");
+
 	zeigewort(&wortspiel1);
 
 	int c;
@@ -72,19 +67,22 @@ int main() {
 		int gefunden = 0;
 
 		for(j = 0; j < a; j++){
-			if(wort[j] == wortspiel1.eingaben_buchstabe[0]) {
-				printf("hurra\n");
-				wortspiel1.erratenes_wort[j] = wortspiel1.eingaben_buchstabe[0];
-				gefunden += 1;
-				anzahl_richtiger_buchstaben += 1;
-				i--;
-				
-				
+			if (wortspiel1.erratenes_wort[j] == wortspiel1.eingaben_buchstabe[0]) {
+				printf("haha, diesen Buchstaben hast du schon mal versucht: %c\n", wortspiel1.eingaben_buchstabe[0]);
+			}
+			else {
+				if(wort[j] == wortspiel1.eingaben_buchstabe[0]) {
+					printf("hurra\n");
+					wortspiel1.erratenes_wort[j] = wortspiel1.eingaben_buchstabe[0];
+					gefunden += 1;
+					anzahl_richtiger_buchstaben += 1;
+					i--;
+					
+				}
 			}
 		}
 		wortspiel1.anzahl_versuche = wortspiel1.anzahl_versuche + gefunden;
 		printf("%d Versuche wurden aufgrund richtiger Eingabe gutgeschrieben.\n", gefunden);
-		
 		
 		if (wortspiel1.anzahl_versuche - i != 0) {
 			if (i == 0) {
@@ -93,15 +91,13 @@ int main() {
 			printf("\nVersuche es noch einmal bitte, du hast noch %d Versuche!\n", wortspiel1.anzahl_versuche - i);
 		}
 		else {
-			printf("ende, vorbei, keine Versuche mehr.\n");
+			printf("Ende, vorbei, keine Versuche mehr.\n");
 			break;	
 		}
 		zeigewort(&wortspiel1);
 		printf("\n");
 	}
-
 	printf("Game over.\n");
-
 	return 0;
 
 }
