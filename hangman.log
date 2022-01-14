@@ -1,0 +1,20 @@
+
+hangman: 21:30:10 - Hangman Spiel Beginn
+
+hangman: 21:30:15 - Das zu erratene Wort ist: bo
+hangman: 21:30:15 - Die Wortlaenge ist: 2
+hangman: 21:30:15 - Das erratene Wort ist: 
+hangman: 21:30:16 - Der eingebene Versuchsbuchstabe ist: o.
+hangman: 21:30:16 - hurra, Der Buchstabe: o kommt tatsächlich vor.
+hangman: 21:30:16 - 1 Versuche wurden aufgrund richtiger Eingabe gutgeschrieben.
+
+hangman: 21:30:16 - Versuche es noch einmal bitte, du hast noch 5 Versuche!
+hangman: 21:30:16 - Das erratene Wort ist: 
+hangman: 21:30:17 - Der eingebene Versuchsbuchstabe ist: b.
+hangman: 21:30:17 - hurra, Der Buchstabe: b kommt tatsächlich vor.
+hangman: 21:30:17 - 1 Versuche wurden aufgrund richtiger Eingabe gutgeschrieben.
+
+hangman: 21:30:17 - Versuche es noch einmal bitte, du hast noch 5 Versuche!
+hangman: 21:30:17 - Das erratene Wort ist: 
+hangman: 21:30:17 - hip hip hurra. Alles richtig.
+hangman: 21:30:17 - Game over.
