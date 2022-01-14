@@ -9,6 +9,8 @@
 
 #include <stdio.h>
 
+/* http://simplestcodings.blogspot.com/2010/10/simple-logger-in-c.html*/
+
 /* termios.h und unistd.h werden von function getch benötigt */
 #include <termios.h>
 #include <unistd.h>
