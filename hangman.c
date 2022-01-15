@@ -12,6 +12,7 @@
 #include <stdlib.h>
 #include <stdio.h>
 #include <time.h>
+#include <unistd.h> 
 /* http://simplestcodings.blogspot.com/2010/10/simple-logger-in-c.html*/
 
 /* termios.h und unistd.h werden von function getch benötigt */
@@ -20,6 +21,9 @@
 
 extern const char* __progname;
 #define PROGRAM_NAME __progname
+
+#define ZEILEN 100 
+#define WORTSIZE 100
 
 void print_to_file(const char* message) {
     struct tm* current_tm;
@@ -116,151 +120,244 @@ int zeigewort(struct Wortspiel *w) {
 	return 0;
 }
 
+char * lesen_von_datei(char *wortfile) {
+	char *randam_wort;
+	char lines_from_file[ZEILEN][WORTSIZE];
+	int num;
+	if (wortfile != NULL) {
+		FILE *fptr = NULL;
+		;
+		int i = 0;
+    	int tot = 0;
+		
+
+		fptr = fopen(wortfile, "r");
+    	while(fgets(lines_from_file[i], WORTSIZE, fptr)) {
+			lines_from_file[i][strlen(lines_from_file[i]) - 1] = '\0';
+			i++;
+    	}
+		tot = i;
+		printf("\n The content of the file %s  are : \n",wortfile);    
+		for(i = 0; i < tot; ++i) {
+			printf(" %s\n", lines_from_file[i]);
+		}
+		i = 0;
+		srand(time(0));
+		num = (rand() % (tot - 0 + 1)) + 0;
+		
+		randam_wort = lines_from_file[num];
+		printf("\n");
+		
+
+	}
+
+	return randam_wort;
+}
+
 /* Hier beginnt die Hauptfunktion */
 
-int main() {
+int main(int argc, char *argv[]) {
 	char wort[100];
     char ch = ' ';
 	int i = 0;
 	int j;
 	struct Wortspiel wortspiel1;
 	
+	char *rand_wort;
+
+	int opt;
+	int spielrunden = 0;
+    char *wortliste = NULL;
+    // put ':' in the starting of the
+    // string so that program can 
+    //distinguish between '?' and ':' 
+    while((opt = getopt(argc, argv, ":i:r:")) != -1) 
+    { 
+        switch(opt) 
+        { 
+            case 'i':
+				wortliste = optarg;
+				printf("Wortliste Datei: %s\n", wortliste); 
+                break;
+            case 'r': 
+				spielrunden = atoi(optarg);
+                printf("Spielrunden angegeben: %d\n", spielrunden); 
+                break; 
+            case ':': 
+                printf("Die Option braucht einen Wert.\n"); 
+                break; 
+            case '?': 
+                printf("Die verwendete Option ist unbekannt: %c\n", optopt);
+                break; 
+        } 
+    } 
+
+	int z;
+	if (spielrunden == 0) {
+		spielrunden += 1;
+		printf("Spielrundenzahl: %d\n", spielrunden);
+	}
 	char* logmessage;
-	if(0 > asprintf(&logmessage, "Hangman Spiel Beginn\n")) return printf("error happened.");
-	print_to_file(logmessage);
-	free(logmessage);
-	
-	//Wort das erraten werden soll muss hier eingegeben werden.
-	printf("\nGeben Sie ein Wort ein: ");
-    /* Dann folgt hier eine while Schleife mit der jedes eingegebene Zeichen
-     * durch einen Stern ersetzt wird bis ein \n new-line Zeichen kommt, 
-     * dann wid die while Schleife verlassen.  
-    */
-	while (i<=10){
-        wort[i] = getch();
-        ch = wort[i];
-        if(ch=='\n') {
-            break;
-        }
-        else {
-            printf("*");
-        }
-        i++;
-    }
-    /* Es wird hier ein Null Zeichen in den wort array geschrieben
-     * um das Ende des Wortes zu markieren. 
-    */
-    wort[i]='\0';
-	if(0 > asprintf(&logmessage, "Das zu erratene Wort ist: %s", wort)) return printf("error happened.");
-	print_to_file(logmessage);
-	free(logmessage);
-	
-	int a = strlen(wort);
-	int e;
-    char unterstrich[a];
-    /* Die Anzahl der max. Versuche beträgt das doppelte von Wortzeichenanzahl. */
-	wortspiel1.anzahl_versuche = a*2;
-	wortspiel1.wortlaenge = a;
-
-    /* Hier wird das Zeichen Array erratenes_wort mit lauter Underscore ersetzt,
-     * solange bis der Spieler einen Buchstaben richtig getippt hat.
-    */
-    for(e=0; e < a; e++) {
-		wortspiel1.erratenes_wort[e] = '_';
-    }
-	/*printf("\nDie Wortlaenge ist %d\n", wortspiel1.wortlaenge);*/
-	if(0 > asprintf(&logmessage, "Die Wortlaenge ist: %d", wortspiel1.wortlaenge)) return printf("error happened.");
-	print_to_file(logmessage);
-	free(logmessage);
-	zeigewort(&wortspiel1);
-
-	int c;
-    /* anzahl_richtiger_buchstaben wird verwendet um wenn der Wert gleich der Wortlänge a ist
-     * dann hat der Spieler alle Buchstaben des Wortes richtig geraten und das Spiel gewonnen.
-    */
-	int anzahl_richtiger_buchstaben = 0;
-
-    /* Die for Schleife läuft so lange bis i kleiner gleich anzahl_versuche ist.
-     * wobei der integer Wert von anzahl_versuche nach unten und oben verändern kann 
-     * abhängig von Gutschrift, also wenn der User einen Buchstaben richtig getippt hat dann
-     * bekommt man einen Versuch gutgeschrieben. Wenn aber ein Tipp gleich mehrere gleiche Buchstaben
-     * im Wort erwischt hat dann zählt jeder Buchstabe als Gutschrift dazu. Dadurch wird anzahl_versuche 
-     * auch mal steigen können.
-    */ 
-	for(i=0; i <= wortspiel1.anzahl_versuche; ++i) {
+	for (z = 0; z < spielrunden; z++) {
 		
-		char buchstabe;
-		if (anzahl_richtiger_buchstaben == a){
-			if(0 > asprintf(&logmessage, "hip hip hurra. Alles richtig.")) return printf("error happened.");
-			print_to_file(logmessage);
-			free(logmessage);
-			break;
+		if (wortliste != NULL) {
+			rand_wort = lesen_von_datei(wortliste);
+			/* printf("Das zufällige Wort ist: %s\n", rand_wort);
+			printf("Das Wort hat %d Buchstaben.\n", (int) strlen(rand_wort)); */
 		}
-		printf("Gib einen Buchstaben ein: ");
-		fflush(stdout);
-		scanf(" %c", &buchstabe);
-		wortspiel1.eingaben_buchstabe[0] = buchstabe;
-		if(0 > asprintf(&logmessage, "Der eingebene Versuchsbuchstabe ist: %c.", wortspiel1.eingaben_buchstabe[0])) return printf("error happened.");
+		
+
+		
+		if(0 > asprintf(&logmessage, "Hangman Spiel Beginn\n")) return printf("error happened.");
 		print_to_file(logmessage);
 		free(logmessage);
-		//printf("Der eingegebene Buchstabe ist: %c\n", wortspiel1.eingaben_buchstabe[0]);
+		
+		int k;
+		if ((int) strlen(rand_wort) > 0) {
+			for (k = 0; k < (int) strlen(rand_wort); k++) {
+				wort[k] = rand_wort[k];
+				//printf("Buchstabe ins wort ist: %c\n", rand_wort[k]);
+			}	
+			wort[k]='\0';
+		}
+		else {
+			//Wort das erraten werden soll muss hier eingegeben werden.
+			printf("\nGeben Sie ein Wort ein: ");
+			/* Dann folgt hier eine while Schleife mit der jedes eingegebene Zeichen
+			* durch einen Stern ersetzt wird bis ein \n new-line Zeichen kommt, 
+			* dann wid die while Schleife verlassen.  
+			*/
+			while (i<=100){
+				wort[i] = getch();
+				ch = wort[i];
+				if(ch=='\n') {
+					break;
+				}
+				else {
+					printf("*");
+				}
+				i++;
+			}
+			wort[i]='\0';
+		}
+		/* Es wird hier ein Null Zeichen in den wort array geschrieben
+		* um das Ende des Wortes zu markieren. 
+		*/
+		printf("DAS WORT: %s\n", wort);
+		if(0 > asprintf(&logmessage, "Das zu erratene Wort ist: %s", wort)) return printf("error happened.");
+		print_to_file(logmessage);
+		free(logmessage);
+		
+		int a = strlen(wort);
+		int e;
+		char unterstrich[a];
+		/* Die Anzahl der max. Versuche beträgt das doppelte von Wortzeichenanzahl. */
+		wortspiel1.anzahl_versuche = a*2;
+		wortspiel1.wortlaenge = a;
 
-        /* Variable gefunden wurde verwendet um Buchstaben die in 
-         * eineme Wort mehrfach auftauchen zu Häufigkeit zu zählen.
-        */
-		int gefunden = 0;
+		/* Hier wird das Zeichen Array erratenes_wort mit lauter Underscore ersetzt,
+		* solange bis der Spieler einen Buchstaben richtig getippt hat.
+		*/
+		for(e=0; e < a; e++) {
+			wortspiel1.erratenes_wort[e] = '_';
+		}
+		/*printf("\nDie Wortlaenge ist %d\n", wortspiel1.wortlaenge);*/
+		if(0 > asprintf(&logmessage, "Die Wortlaenge ist: %d", wortspiel1.wortlaenge)) return printf("error happened.");
+		print_to_file(logmessage);
+		free(logmessage);
+		zeigewort(&wortspiel1);
 
-        /* In der for Schleife wird solang durchlaufen bis j kleiner als Wortlänge ist. */
-		for(j = 0; j < a; j++){
+		int c;
+		/* anzahl_richtiger_buchstaben wird verwendet um wenn der Wert gleich der Wortlänge a ist
+		* dann hat der Spieler alle Buchstaben des Wortes richtig geraten und das Spiel gewonnen.
+		*/
+		int anzahl_richtiger_buchstaben = 0;
 
-            /* Die if prüft ob der Tipp des Spielers bereits einmal als richtiger Buchstabe eingegeben hat, 
-             * wenn ja dann wird ein Hinweis ausgegeben.
-            */ 
-			if (wortspiel1.erratenes_wort[j] == wortspiel1.eingaben_buchstabe[0]) {
-				if(0 > asprintf(&logmessage, "haha, den Buchstaben %c hast du bereits erraten.", wortspiel1.eingaben_buchstabe[0])) return printf("error happened.");
+		/* Die for Schleife läuft so lange bis i kleiner gleich anzahl_versuche ist.
+		* wobei der integer Wert von anzahl_versuche nach unten und oben verändern kann 
+		* abhängig von Gutschrift, also wenn der User einen Buchstaben richtig getippt hat dann
+		* bekommt man einen Versuch gutgeschrieben. Wenn aber ein Tipp gleich mehrere gleiche Buchstaben
+		* im Wort erwischt hat dann zählt jeder Buchstabe als Gutschrift dazu. Dadurch wird anzahl_versuche 
+		* auch mal steigen können.
+		*/ 
+		for(i=0; i <= wortspiel1.anzahl_versuche; ++i) {
+			
+			char buchstabe;
+			if (anzahl_richtiger_buchstaben == a){
+				if(0 > asprintf(&logmessage, "hip hip hurra. Alles richtig.")) return printf("error happened.");
+				print_to_file(logmessage);
+				free(logmessage);
+				continue;
+			}
+			printf("Gib einen Buchstaben ein: ");
+			fflush(stdout);
+			scanf(" %c", &buchstabe);
+			wortspiel1.eingaben_buchstabe[0] = buchstabe;
+			if(0 > asprintf(&logmessage, "Der eingebene Versuchsbuchstabe ist: %c.", wortspiel1.eingaben_buchstabe[0])) return printf("error happened.");
+			print_to_file(logmessage);
+			free(logmessage);
+			//printf("Der eingegebene Buchstabe ist: %c\n", wortspiel1.eingaben_buchstabe[0]);
+
+			/* Variable gefunden wurde verwendet um Buchstaben die in 
+			* eineme Wort mehrfach auftauchen zu Häufigkeit zu zählen.
+			*/
+			int gefunden = 0;
+
+			/* In der for Schleife wird solang durchlaufen bis j kleiner als Wortlänge ist. */
+			for(j = 0; j < a; j++){
+
+				/* Die if prüft ob der Tipp des Spielers bereits einmal als richtiger Buchstabe eingegeben hat, 
+				* wenn ja dann wird ein Hinweis ausgegeben.
+				*/ 
+				if (wortspiel1.erratenes_wort[j] == wortspiel1.eingaben_buchstabe[0]) {
+					if(0 > asprintf(&logmessage, "haha, den Buchstaben %c hast du bereits erraten.", wortspiel1.eingaben_buchstabe[0])) return printf("error happened.");
+					print_to_file(logmessage);
+					free(logmessage);
+				}
+				/* sonst prüfen wir ob der Tipp mit einem Buchstaben übereinstimmt. Wenn ja dann hurra. */
+				else {
+					if(wort[j] == wortspiel1.eingaben_buchstabe[0]) {
+						if(0 > asprintf(&logmessage, "hurra, Der Buchstabe: %c kommt tatsächlich vor.", wortspiel1.eingaben_buchstabe[0])) return printf("error happened.");
+						print_to_file(logmessage);
+						free(logmessage);
+						wortspiel1.erratenes_wort[j] = wortspiel1.eingaben_buchstabe[0];
+
+						/* nicht verwirren, gefunden ist eine Variable die innerhalb der for Schleife läuft und wird für 
+						* jeden Tippversuch neu auf Null initialisiert.
+						* anzahl_richtiger_buchstaben ist aber die max. Anzahl der richtig geratenen Buchstaben im gesamten 
+						* Spiel. Wenn die Grösse von anzahl_richtiger_buchstaben gleich gross wie die Wortlänge ist 
+						* dann hat der Spieler alle Buchstaben erraten und das Spiel gewonnen.
+						*/
+						gefunden += 1;
+						anzahl_richtiger_buchstaben += 1;					
+					}
+				}
+			}
+
+			/* Hier erhöhe ich die Anzahl möglicher Versuche mit der sogenannten Gutschrift gefunden. */
+			wortspiel1.anzahl_versuche = wortspiel1.anzahl_versuche + gefunden;
+			if(0 > asprintf(&logmessage, "%d Versuche wurden aufgrund richtiger Eingabe gutgeschrieben.\n", gefunden)) return printf("error happened.");
+			print_to_file(logmessage);
+			free(logmessage);
+			
+			/* Die verbleibende Anzahl an Versuchen wird hier berechnet wenn nicht gleich Null ist und dem User angezeigt. */
+			if (wortspiel1.anzahl_versuche - i != 0) {
+				if(0 > asprintf(&logmessage, "Versuche es noch einmal bitte, du hast noch %d Versuche!", wortspiel1.anzahl_versuche - i)) return printf("error happened.");
 				print_to_file(logmessage);
 				free(logmessage);
 			}
-            /* sonst prüfen wir ob der Tipp mit einem Buchstaben übereinstimmt. Wenn ja dann hurra. */
 			else {
-				if(wort[j] == wortspiel1.eingaben_buchstabe[0]) {
-					if(0 > asprintf(&logmessage, "hurra, Der Buchstabe: %c kommt tatsächlich vor.", wortspiel1.eingaben_buchstabe[0])) return printf("error happened.");
-					print_to_file(logmessage);
-					free(logmessage);
-					wortspiel1.erratenes_wort[j] = wortspiel1.eingaben_buchstabe[0];
-
-                    /* nicht verwirren, gefunden ist eine Variable die innerhalb der for Schleife läuft und wird für 
-                     * jeden Tippversuch neu auf Null initialisiert.
-                     * anzahl_richtiger_buchstaben ist aber die max. Anzahl der richtig geratenen Buchstaben im gesamten 
-                     * Spiel. Wenn die Grösse von anzahl_richtiger_buchstaben gleich gross wie die Wortlänge ist 
-                     * dann hat der Spieler alle Buchstaben erraten und das Spiel gewonnen.
-                    */
-					gefunden += 1;
-					anzahl_richtiger_buchstaben += 1;					
-				}
+				if(0 > asprintf(&logmessage, "Ende, vorbei, keine Versuche mehr, du hast das Spiel verloren.")) return printf("error happened.");
+				print_to_file(logmessage);
+				free(logmessage);
+				continue;	
 			}
+			zeigewort(&wortspiel1);
+			printf("\n");
 		}
-
-        /* Hier erhöhe ich die Anzahl möglicher Versuche mit der sogenannten Gutschrift gefunden. */
-		wortspiel1.anzahl_versuche = wortspiel1.anzahl_versuche + gefunden;
-		if(0 > asprintf(&logmessage, "%d Versuche wurden aufgrund richtiger Eingabe gutgeschrieben.\n", gefunden)) return printf("error happened.");
+		if(0 > asprintf(&logmessage, "Diese Spielrunde ist vorbei.")) return printf("error happened.");
 		print_to_file(logmessage);
 		free(logmessage);
-		
-        /* Die verbleibende Anzahl an Versuchen wird hier berechnet wenn nicht gleich Null ist und dem User angezeigt. */
-		if (wortspiel1.anzahl_versuche - i != 0) {
-			if(0 > asprintf(&logmessage, "Versuche es noch einmal bitte, du hast noch %d Versuche!", wortspiel1.anzahl_versuche - i)) return printf("error happened.");
-			print_to_file(logmessage);
-			free(logmessage);
-		}
-		else {
-			if(0 > asprintf(&logmessage, "Ende, vorbei, keine Versuche mehr, du hast das Spiel verloren.")) return printf("error happened.");
-			print_to_file(logmessage);
-			free(logmessage);
-			break;	
-		}
-		zeigewort(&wortspiel1);
-		printf("\n");
 	}
 	if(0 > asprintf(&logmessage, "Game over.")) return printf("error happened.");
 	print_to_file(logmessage);
