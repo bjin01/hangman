@@ -5,6 +5,8 @@
  *  Author: osboxes
  */
 /* string.h wird wegen strlen gebraucht. */
+
+/*_GNU_SOURCE wird benötigt für */
 #define _GNU_SOURCE
 #include <string.h>
 #include <stdlib.h>
@@ -24,7 +26,7 @@ void print_to_file(const char* message) {
     time_t time_now;
 	FILE *f;
 	printf("%s\n",message);
-	f = fopen("hangman.log", "a+");
+	f = fopen("/tmp/hangman.log", "a+");
 	if (f == NULL) {
 		printf("Can not open file hangman.log");
 		return;
