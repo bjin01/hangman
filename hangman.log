@@ -1,22 +1,1403 @@
+hangman: 11:20:08 - Spielrundenzahl: 1
 
-hangman: 21:30:10 - Hangman Spiel Beginn
+hangman: 11:20:08 - Hangman Spiel Beginn
 
-hangman: 21:30:15 - Das zu erratene Wort ist: bo
-hangman: 21:30:15 - Die Wortlaenge ist: 2
-hangman: 21:30:15 - Das erratene Wort ist: 
-hangman: 21:30:16 - Der eingebene Versuchsbuchstabe ist: o.
-hangman: 21:30:16 - hurra, Der Buchstabe: o kommt tatsÃ¤chlich vor.
-hangman: 21:30:16 - 1 Versuche wurden aufgrund richtiger Eingabe gutgeschrieben.
+hangman: 11:20:15 - Das zu erratene Wort ist: jes
+hangman: 11:20:15 - Die Wortlaenge ist: 3
+hangman: 11:20:15 - Das erratene Wort ist: 
+hangman: 11:20:15 - ___ÿ
+hangman: 11:20:16 - Der eingebene Versuchsbuchstabe ist: j.
+hangman: 11:20:16 - hurra, Der Buchstabe: j kommt tatsÃ¤chlich vor.
+hangman: 11:20:16 - 1 Versuche wurden aufgrund richtiger Eingabe gutgeschrieben.
 
-hangman: 21:30:16 - Versuche es noch einmal bitte, du hast noch 5 Versuche!
-hangman: 21:30:16 - Das erratene Wort ist: 
-hangman: 21:30:17 - Der eingebene Versuchsbuchstabe ist: b.
-hangman: 21:30:17 - hurra, Der Buchstabe: b kommt tatsÃ¤chlich vor.
-hangman: 21:30:17 - 1 Versuche wurden aufgrund richtiger Eingabe gutgeschrieben.
+hangman: 11:20:16 - Versuche es noch einmal bitte, du hast noch 7 Versuche!
+hangman: 11:20:16 - Das erratene Wort ist: 
+hangman: 11:20:16 - j__ÿ
+hangman: 11:20:16 - 1 Versuche wurden aufgrund richtiger Eingabe gutgeschrieben.
 
-hangman: 21:30:17 - Versuche es noch einmal bitte, du hast noch 5 Versuche!
-hangman: 21:30:17 - Das erratene Wort ist: 
-hangman: 21:30:17 - hip hip hurra. Alles richtig.
-hangman: 21:30:17 - Game over.
-hangman: 19:25:17 - Hangman Spiel Beginn
+hangman: 11:20:16 - Versuche es noch einmal bitte, du hast noch 8 Versuche!
+hangman: 11:20:16 - Das erratene Wort ist: 
+hangman: 11:20:16 - j__ÿ
+hangman: 11:20:16 - 1 Versuche wurden aufgrund richtiger Eingabe gutgeschrieben.
 
+hangman: 11:20:16 - Versuche es noch einmal bitte, du hast noch 9 Versuche!
+hangman: 11:20:16 - Das erratene Wort ist: 
+hangman: 11:20:16 - j__ÿ
+hangman: 11:20:17 - Der eingebene Versuchsbuchstabe ist: e.
+hangman: 11:20:17 - 0 Versuche wurden aufgrund richtiger Eingabe gutgeschrieben.
+
+hangman: 11:20:17 - Versuche es noch einmal bitte, du hast noch 8 Versuche!
+hangman: 11:20:17 - Das erratene Wort ist: 
+hangman: 11:20:17 - j__ÿ
+hangman: 11:20:17 - hurra, Der Buchstabe: e kommt tatsÃ¤chlich vor.
+hangman: 11:20:17 - 1 Versuche wurden aufgrund richtiger Eingabe gutgeschrieben.
+
+hangman: 11:20:17 - Versuche es noch einmal bitte, du hast noch 9 Versuche!
+hangman: 11:20:17 - Das erratene Wort ist: 
+hangman: 11:20:17 - je_ÿ
+hangman: 11:20:17 - 1 Versuche wurden aufgrund richtiger Eingabe gutgeschrieben.
+
+hangman: 11:20:17 - Versuche es noch einmal bitte, du hast noch 10 Versuche!
+hangman: 11:20:17 - Das erratene Wort ist: 
+hangman: 11:20:17 - je_ÿ
+hangman: 11:20:18 - Der eingebene Versuchsbuchstabe ist: s.
+hangman: 11:20:18 - 0 Versuche wurden aufgrund richtiger Eingabe gutgeschrieben.
+
+hangman: 11:20:18 - Versuche es noch einmal bitte, du hast noch 9 Versuche!
+hangman: 11:20:18 - Das erratene Wort ist: 
+hangman: 11:20:18 - je_ÿ
+hangman: 11:20:18 - 0 Versuche wurden aufgrund richtiger Eingabe gutgeschrieben.
+
+hangman: 11:20:18 - Versuche es noch einmal bitte, du hast noch 9 Versuche!
+hangman: 11:20:18 - Das erratene Wort ist: 
+hangman: 11:20:18 - je_ÿ
+hangman: 11:20:18 - hurra, Der Buchstabe: s kommt tatsÃ¤chlich vor.
+hangman: 11:20:18 - 1 Versuche wurden aufgrund richtiger Eingabe gutgeschrieben.
+
+hangman: 11:20:18 - Versuche es noch einmal bitte, du hast noch 10 Versuche!
+hangman: 11:20:18 - Das erratene Wort ist: 
+hangman: 11:20:18 - jesÿ
+hangman: 11:20:18 - hip hip hurra. Alles richtig.
+hangman: 11:20:18 - Diese Spielrunde ist vorbei.
+hangman: 11:20:18 - Game over.
+hangman: 11:20:29 - Spielrundenzahl: 1
+
+hangman: 11:20:29 - Hangman Spiel Beginn
+
+hangman: 11:20:31 - Das zu erratene Wort ist: jes
+hangman: 11:20:31 - Die Wortlaenge ist: 3
+hangman: 11:20:31 - Das erratene Wort ist: 
+hangman: 11:20:31 - ___¯
+hangman: 11:20:32 - Der eingebene Versuchsbuchstabe ist: j.
+hangman: 11:20:32 - hurra, Der Buchstabe: j kommt tatsÃ¤chlich vor.
+hangman: 11:20:32 - 1 Versuche wurden aufgrund richtiger Eingabe gutgeschrieben.
+
+hangman: 11:20:32 - Versuche es noch einmal bitte, du hast noch 7 Versuche!
+hangman: 11:20:32 - Das erratene Wort ist: 
+hangman: 11:20:32 - j__¯
+hangman: 11:20:32 - 1 Versuche wurden aufgrund richtiger Eingabe gutgeschrieben.
+
+hangman: 11:20:32 - Versuche es noch einmal bitte, du hast noch 8 Versuche!
+hangman: 11:20:32 - Das erratene Wort ist: 
+hangman: 11:20:32 - j__¯
+hangman: 11:20:32 - 1 Versuche wurden aufgrund richtiger Eingabe gutgeschrieben.
+
+hangman: 11:20:32 - Versuche es noch einmal bitte, du hast noch 9 Versuche!
+hangman: 11:20:32 - Das erratene Wort ist: 
+hangman: 11:20:32 - j__¯
+hangman: 11:20:33 - Der eingebene Versuchsbuchstabe ist: e.
+hangman: 11:20:33 - 0 Versuche wurden aufgrund richtiger Eingabe gutgeschrieben.
+
+hangman: 11:20:33 - Versuche es noch einmal bitte, du hast noch 8 Versuche!
+hangman: 11:20:33 - Das erratene Wort ist: 
+hangman: 11:20:33 - j__¯
+hangman: 11:20:33 - hurra, Der Buchstabe: e kommt tatsÃ¤chlich vor.
+hangman: 11:20:33 - 1 Versuche wurden aufgrund richtiger Eingabe gutgeschrieben.
+
+hangman: 11:20:33 - Versuche es noch einmal bitte, du hast noch 9 Versuche!
+hangman: 11:20:33 - Das erratene Wort ist: 
+hangman: 11:20:33 - je_¯
+hangman: 11:20:33 - 1 Versuche wurden aufgrund richtiger Eingabe gutgeschrieben.
+
+hangman: 11:20:33 - Versuche es noch einmal bitte, du hast noch 10 Versuche!
+hangman: 11:20:33 - Das erratene Wort ist: 
+hangman: 11:20:33 - je_¯
+hangman: 11:20:34 - Der eingebene Versuchsbuchstabe ist: s.
+hangman: 11:20:34 - 0 Versuche wurden aufgrund richtiger Eingabe gutgeschrieben.
+
+hangman: 11:20:34 - Versuche es noch einmal bitte, du hast noch 9 Versuche!
+hangman: 11:20:34 - Das erratene Wort ist: 
+hangman: 11:20:34 - je_¯
+hangman: 11:20:34 - 0 Versuche wurden aufgrund richtiger Eingabe gutgeschrieben.
+
+hangman: 11:20:34 - Versuche es noch einmal bitte, du hast noch 9 Versuche!
+hangman: 11:20:34 - Das erratene Wort ist: 
+hangman: 11:20:34 - je_¯
+hangman: 11:20:34 - hurra, Der Buchstabe: s kommt tatsÃ¤chlich vor.
+hangman: 11:20:34 - 1 Versuche wurden aufgrund richtiger Eingabe gutgeschrieben.
+
+hangman: 11:20:34 - Versuche es noch einmal bitte, du hast noch 10 Versuche!
+hangman: 11:20:34 - Das erratene Wort ist: 
+hangman: 11:20:34 - jes¯
+hangman: 11:20:34 - hip hip hurra. Alles richtig.
+hangman: 11:20:34 - Diese Spielrunde ist vorbei.
+hangman: 11:20:34 - Game over.
+hangman: 11:20:39 - Spielrunden angegeben: 2
+
+hangman: 11:20:42 - Spielrunden angegeben: 2
+
+hangman: 11:20:42 - Hangman Spiel Beginn
+
+hangman: 11:20:46 - Das zu erratene Wort ist: jes
+hangman: 11:20:46 - Die Wortlaenge ist: 3
+hangman: 11:20:46 - Das erratene Wort ist: 
+hangman: 11:20:46 - ___
+hangman: 11:20:47 - Der eingebene Versuchsbuchstabe ist: j.
+hangman: 11:20:47 - hurra, Der Buchstabe: j kommt tatsÃ¤chlich vor.
+hangman: 11:20:47 - 1 Versuche wurden aufgrund richtiger Eingabe gutgeschrieben.
+
+hangman: 11:20:47 - Versuche es noch einmal bitte, du hast noch 7 Versuche!
+hangman: 11:20:47 - Das erratene Wort ist: 
+hangman: 11:20:47 - j__
+hangman: 11:20:47 - 1 Versuche wurden aufgrund richtiger Eingabe gutgeschrieben.
+
+hangman: 11:20:47 - Versuche es noch einmal bitte, du hast noch 8 Versuche!
+hangman: 11:20:47 - Das erratene Wort ist: 
+hangman: 11:20:47 - j__
+hangman: 11:20:47 - 1 Versuche wurden aufgrund richtiger Eingabe gutgeschrieben.
+
+hangman: 11:20:47 - Versuche es noch einmal bitte, du hast noch 9 Versuche!
+hangman: 11:20:47 - Das erratene Wort ist: 
+hangman: 11:20:47 - j__
+hangman: 11:20:48 - Der eingebene Versuchsbuchstabe ist: e.
+hangman: 11:20:48 - 0 Versuche wurden aufgrund richtiger Eingabe gutgeschrieben.
+
+hangman: 11:20:48 - Versuche es noch einmal bitte, du hast noch 8 Versuche!
+hangman: 11:20:48 - Das erratene Wort ist: 
+hangman: 11:20:48 - j__
+hangman: 11:20:48 - hurra, Der Buchstabe: e kommt tatsÃ¤chlich vor.
+hangman: 11:20:48 - 1 Versuche wurden aufgrund richtiger Eingabe gutgeschrieben.
+
+hangman: 11:20:48 - Versuche es noch einmal bitte, du hast noch 9 Versuche!
+hangman: 11:20:48 - Das erratene Wort ist: 
+hangman: 11:20:48 - je_
+hangman: 11:20:48 - 1 Versuche wurden aufgrund richtiger Eingabe gutgeschrieben.
+
+hangman: 11:20:48 - Versuche es noch einmal bitte, du hast noch 10 Versuche!
+hangman: 11:20:48 - Das erratene Wort ist: 
+hangman: 11:20:48 - je_
+hangman: 11:20:48 - Der eingebene Versuchsbuchstabe ist: s.
+hangman: 11:20:48 - 0 Versuche wurden aufgrund richtiger Eingabe gutgeschrieben.
+
+hangman: 11:20:48 - Versuche es noch einmal bitte, du hast noch 9 Versuche!
+hangman: 11:20:48 - Das erratene Wort ist: 
+hangman: 11:20:48 - je_
+hangman: 11:20:48 - 0 Versuche wurden aufgrund richtiger Eingabe gutgeschrieben.
+
+hangman: 11:20:48 - Versuche es noch einmal bitte, du hast noch 9 Versuche!
+hangman: 11:20:48 - Das erratene Wort ist: 
+hangman: 11:20:48 - je_
+hangman: 11:20:48 - hurra, Der Buchstabe: s kommt tatsÃ¤chlich vor.
+hangman: 11:20:48 - 1 Versuche wurden aufgrund richtiger Eingabe gutgeschrieben.
+
+hangman: 11:20:48 - Versuche es noch einmal bitte, du hast noch 10 Versuche!
+hangman: 11:20:48 - Das erratene Wort ist: 
+hangman: 11:20:48 - jes
+hangman: 11:20:48 - hip hip hurra. Alles richtig.
+hangman: 11:20:48 - Diese Spielrunde ist vorbei.
+hangman: 11:20:48 - Hangman Spiel Beginn
+
+hangman: 11:20:48 - Das zu erratene Wort ist: jes
+hangman: 11:20:48 - Die Wortlaenge ist: 3
+hangman: 11:20:48 - Das erratene Wort ist: 
+hangman: 11:20:48 - ___
+hangman: 11:23:36 - Spielrunden angegeben: 2
+
+hangman: 11:23:36 - Hangman Spiel Beginn
+
+hangman: 11:23:42 - Spielrunden angegeben: 2
+
+hangman: 11:23:42 - Hangman Spiel Beginn
+
+hangman: 11:25:28 - Das zu erratene Wort ist: abb
+hangman: 11:25:28 - Die Wortlaenge ist: 3
+hangman: 11:25:28 - Das erratene Wort ist: 
+hangman: 11:25:28 - ___ÿ
+hangman: 11:25:28 - Der eingebene Versuchsbuchstabe ist: c.
+hangman: 11:25:28 - 0 Versuche wurden aufgrund richtiger Eingabe gutgeschrieben.
+
+hangman: 11:25:28 - Versuche es noch einmal bitte, du hast noch 6 Versuche!
+hangman: 11:25:28 - Das erratene Wort ist: 
+hangman: 11:25:28 - ___ÿ
+hangman: 11:25:28 - 0 Versuche wurden aufgrund richtiger Eingabe gutgeschrieben.
+
+hangman: 11:25:28 - Versuche es noch einmal bitte, du hast noch 6 Versuche!
+hangman: 11:25:28 - Das erratene Wort ist: 
+hangman: 11:25:28 - ___ÿ
+hangman: 11:25:28 - 0 Versuche wurden aufgrund richtiger Eingabe gutgeschrieben.
+
+hangman: 11:25:28 - Versuche es noch einmal bitte, du hast noch 6 Versuche!
+hangman: 11:25:28 - Das erratene Wort ist: 
+hangman: 11:25:28 - ___ÿ
+hangman: 11:25:30 - Der eingebene Versuchsbuchstabe ist: a.
+hangman: 11:25:30 - hurra, Der Buchstabe: a kommt tatsÃ¤chlich vor.
+hangman: 11:25:30 - 1 Versuche wurden aufgrund richtiger Eingabe gutgeschrieben.
+
+hangman: 11:25:30 - Versuche es noch einmal bitte, du hast noch 6 Versuche!
+hangman: 11:25:30 - Das erratene Wort ist: 
+hangman: 11:25:30 - a__ÿ
+hangman: 11:25:30 - 1 Versuche wurden aufgrund richtiger Eingabe gutgeschrieben.
+
+hangman: 11:25:30 - Versuche es noch einmal bitte, du hast noch 7 Versuche!
+hangman: 11:25:30 - Das erratene Wort ist: 
+hangman: 11:25:30 - a__ÿ
+hangman: 11:25:30 - 1 Versuche wurden aufgrund richtiger Eingabe gutgeschrieben.
+
+hangman: 11:25:30 - Versuche es noch einmal bitte, du hast noch 8 Versuche!
+hangman: 11:25:30 - Das erratene Wort ist: 
+hangman: 11:25:30 - a__ÿ
+hangman: 11:25:32 - Der eingebene Versuchsbuchstabe ist: b.
+hangman: 11:25:32 - 0 Versuche wurden aufgrund richtiger Eingabe gutgeschrieben.
+
+hangman: 11:25:32 - Versuche es noch einmal bitte, du hast noch 7 Versuche!
+hangman: 11:25:32 - Das erratene Wort ist: 
+hangman: 11:25:32 - a__ÿ
+hangman: 11:25:32 - hurra, Der Buchstabe: b kommt tatsÃ¤chlich vor.
+hangman: 11:25:32 - 1 Versuche wurden aufgrund richtiger Eingabe gutgeschrieben.
+
+hangman: 11:25:32 - Versuche es noch einmal bitte, du hast noch 8 Versuche!
+hangman: 11:25:32 - Das erratene Wort ist: 
+hangman: 11:25:32 - ab_ÿ
+hangman: 11:25:32 - hurra, Der Buchstabe: b kommt tatsÃ¤chlich vor.
+hangman: 11:25:32 - 2 Versuche wurden aufgrund richtiger Eingabe gutgeschrieben.
+
+hangman: 11:25:32 - Versuche es noch einmal bitte, du hast noch 10 Versuche!
+hangman: 11:25:32 - Das erratene Wort ist: 
+hangman: 11:25:32 - abbÿ
+hangman: 11:25:32 - hip hip hurra. Alles richtig.
+hangman: 11:25:44 - Diese Spielrunde ist vorbei.
+hangman: 11:25:56 - Hangman Spiel Beginn
+
+hangman: 11:28:51 - Spielrunden angegeben: 2
+
+hangman: 11:28:51 - Hangman Spiel Beginn
+
+hangman: 11:28:55 - Das zu erratene Wort ist: bo
+hangman: 11:28:55 - Die Wortlaenge ist: 2
+hangman: 11:28:55 - Das erratene Wort ist: 
+hangman: 11:28:55 - __÷ÿ
+hangman: 11:28:56 - Der eingebene Versuchsbuchstabe ist: b.
+hangman: 11:28:56 - hurra, Der Buchstabe: b kommt tatsÃ¤chlich vor.
+hangman: 11:28:56 - 1 Versuche wurden aufgrund richtiger Eingabe gutgeschrieben.
+
+hangman: 11:28:56 - Versuche es noch einmal bitte, du hast noch 5 Versuche!
+hangman: 11:28:56 - Das erratene Wort ist: 
+hangman: 11:28:56 - b_÷ÿ
+hangman: 11:28:56 - 1 Versuche wurden aufgrund richtiger Eingabe gutgeschrieben.
+
+hangman: 11:28:56 - Versuche es noch einmal bitte, du hast noch 6 Versuche!
+hangman: 11:28:56 - Das erratene Wort ist: 
+hangman: 11:28:56 - b_÷ÿ
+hangman: 11:28:57 - Der eingebene Versuchsbuchstabe ist: o.
+hangman: 11:28:57 - 0 Versuche wurden aufgrund richtiger Eingabe gutgeschrieben.
+
+hangman: 11:28:57 - Versuche es noch einmal bitte, du hast noch 5 Versuche!
+hangman: 11:28:57 - Das erratene Wort ist: 
+hangman: 11:28:57 - b_÷ÿ
+hangman: 11:28:57 - hurra, Der Buchstabe: o kommt tatsÃ¤chlich vor.
+hangman: 11:28:57 - 1 Versuche wurden aufgrund richtiger Eingabe gutgeschrieben.
+
+hangman: 11:28:57 - Versuche es noch einmal bitte, du hast noch 6 Versuche!
+hangman: 11:28:57 - Das erratene Wort ist: 
+hangman: 11:28:57 - bo÷ÿ
+hangman: 11:28:57 - hip hip hurra. Alles richtig.
+hangman: 11:28:57 - Diese Spielrunde ist vorbei.
+hangman: 11:28:57 - Hangman Spiel Beginn
+
+hangman: 11:29:02 - Das zu erratene Wort ist: bo
+hangman: 11:29:02 - Die Wortlaenge ist: 2
+hangman: 11:29:02 - Das erratene Wort ist: 
+hangman: 11:29:02 - __÷ÿ
+hangman: 11:29:03 - Der eingebene Versuchsbuchstabe ist: j.
+hangman: 11:29:03 - 0 Versuche wurden aufgrund richtiger Eingabe gutgeschrieben.
+
+hangman: 11:29:03 - Versuche es noch einmal bitte, du hast noch 4 Versuche!
+hangman: 11:29:03 - Das erratene Wort ist: 
+hangman: 11:29:03 - __÷ÿ
+hangman: 11:29:03 - 0 Versuche wurden aufgrund richtiger Eingabe gutgeschrieben.
+
+hangman: 11:29:03 - Versuche es noch einmal bitte, du hast noch 4 Versuche!
+hangman: 11:29:03 - Das erratene Wort ist: 
+hangman: 11:29:03 - __÷ÿ
+hangman: 11:29:04 - Der eingebene Versuchsbuchstabe ist: o.
+hangman: 11:29:04 - 0 Versuche wurden aufgrund richtiger Eingabe gutgeschrieben.
+
+hangman: 11:29:04 - Versuche es noch einmal bitte, du hast noch 3 Versuche!
+hangman: 11:29:04 - Das erratene Wort ist: 
+hangman: 11:29:04 - __÷ÿ
+hangman: 11:29:04 - hurra, Der Buchstabe: o kommt tatsÃ¤chlich vor.
+hangman: 11:29:04 - 1 Versuche wurden aufgrund richtiger Eingabe gutgeschrieben.
+
+hangman: 11:29:04 - Versuche es noch einmal bitte, du hast noch 4 Versuche!
+hangman: 11:29:04 - Das erratene Wort ist: 
+hangman: 11:29:04 - _o÷ÿ
+hangman: 11:29:06 - Der eingebene Versuchsbuchstabe ist: j.
+hangman: 11:29:06 - 0 Versuche wurden aufgrund richtiger Eingabe gutgeschrieben.
+
+hangman: 11:29:06 - Versuche es noch einmal bitte, du hast noch 3 Versuche!
+hangman: 11:29:06 - Das erratene Wort ist: 
+hangman: 11:29:06 - _o÷ÿ
+hangman: 11:29:06 - 0 Versuche wurden aufgrund richtiger Eingabe gutgeschrieben.
+
+hangman: 11:29:06 - Versuche es noch einmal bitte, du hast noch 3 Versuche!
+hangman: 11:29:06 - Das erratene Wort ist: 
+hangman: 11:29:06 - _o÷ÿ
+hangman: 11:29:07 - Der eingebene Versuchsbuchstabe ist: j.
+hangman: 11:29:07 - 0 Versuche wurden aufgrund richtiger Eingabe gutgeschrieben.
+
+hangman: 11:29:07 - Versuche es noch einmal bitte, du hast noch 2 Versuche!
+hangman: 11:29:07 - Das erratene Wort ist: 
+hangman: 11:29:07 - _o÷ÿ
+hangman: 11:29:07 - 0 Versuche wurden aufgrund richtiger Eingabe gutgeschrieben.
+
+hangman: 11:29:07 - Versuche es noch einmal bitte, du hast noch 2 Versuche!
+hangman: 11:29:07 - Das erratene Wort ist: 
+hangman: 11:29:07 - _o÷ÿ
+hangman: 11:29:07 - Der eingebene Versuchsbuchstabe ist: j.
+hangman: 11:29:07 - 0 Versuche wurden aufgrund richtiger Eingabe gutgeschrieben.
+
+hangman: 11:29:07 - Versuche es noch einmal bitte, du hast noch 1 Versuche!
+hangman: 11:29:07 - Das erratene Wort ist: 
+hangman: 11:29:07 - _o÷ÿ
+hangman: 11:29:07 - 0 Versuche wurden aufgrund richtiger Eingabe gutgeschrieben.
+
+hangman: 11:29:07 - Versuche es noch einmal bitte, du hast noch 1 Versuche!
+hangman: 11:29:07 - Das erratene Wort ist: 
+hangman: 11:29:07 - _o÷ÿ
+hangman: 11:29:07 - Der eingebene Versuchsbuchstabe ist: j.
+hangman: 11:29:07 - 0 Versuche wurden aufgrund richtiger Eingabe gutgeschrieben.
+
+hangman: 11:29:07 - Ende, vorbei, keine Versuche mehr, du hast das Spiel verloren.
+hangman: 11:29:07 - 0 Versuche wurden aufgrund richtiger Eingabe gutgeschrieben.
+
+hangman: 11:29:07 - Versuche es noch einmal bitte, du hast noch -6 Versuche!
+hangman: 11:29:07 - Das erratene Wort ist: 
+hangman: 11:29:07 - _o÷ÿ
+hangman: 11:29:07 - Diese Spielrunde ist vorbei.
+hangman: 11:29:07 - Game over.
+hangman: 13:24:57 - Spielrunden angegeben: 2
+
+hangman: 13:24:57 - Hangman Spiel Beginn
+
+hangman: 13:25:13 - Spielrunden angegeben: 2
+
+hangman: 13:25:29 - Hangman Spiel Beginn
+
+hangman: 13:26:25 - Das zu erratene Wort ist: je
+hangman: 13:26:25 - Die Wortlaenge ist: 2
+hangman: 13:26:25 - Das erratene Wort ist: 
+hangman: 13:26:25 - __÷ÿ
+hangman: 13:26:28 - Der eingebene Versuchsbuchstabe ist: j.
+hangman: 13:26:28 - hurra, Der Buchstabe: j kommt tatsÃ¤chlich vor.
+hangman: 13:26:28 - 1 Versuche wurden aufgrund richtiger Eingabe gutgeschrieben.
+
+hangman: 13:26:28 - Versuche es noch einmal bitte, du hast noch 5 Versuche!
+hangman: 13:26:28 - Das erratene Wort ist: 
+hangman: 13:26:28 - j_÷ÿ
+hangman: 13:26:28 - 1 Versuche wurden aufgrund richtiger Eingabe gutgeschrieben.
+
+hangman: 13:26:28 - Versuche es noch einmal bitte, du hast noch 6 Versuche!
+hangman: 13:26:28 - Das erratene Wort ist: 
+hangman: 13:26:28 - j_÷ÿ
+hangman: 13:26:35 - Der eingebene Versuchsbuchstabe ist: e.
+hangman: 13:26:35 - 0 Versuche wurden aufgrund richtiger Eingabe gutgeschrieben.
+
+hangman: 13:26:35 - Versuche es noch einmal bitte, du hast noch 5 Versuche!
+hangman: 13:26:35 - Das erratene Wort ist: 
+hangman: 13:26:35 - j_÷ÿ
+hangman: 13:26:35 - hurra, Der Buchstabe: e kommt tatsÃ¤chlich vor.
+hangman: 13:26:35 - 1 Versuche wurden aufgrund richtiger Eingabe gutgeschrieben.
+
+hangman: 13:26:35 - Versuche es noch einmal bitte, du hast noch 6 Versuche!
+hangman: 13:26:35 - Das erratene Wort ist: 
+hangman: 13:26:35 - je÷ÿ
+hangman: 13:26:35 - hip hip hurra. Alles richtig.
+hangman: 13:26:47 - Diese Spielrunde ist vorbei.
+hangman: 13:27:06 - Hangman Spiel Beginn
+
+hangman: 13:27:46 - Das zu erratene Wort ist: 
+hangman: 13:29:40 - Spielrunden angegeben: 2
+
+hangman: 13:29:49 - Hangman Spiel Beginn
+
+hangman: 13:29:57 - Das zu erratene Wort ist: je
+hangman: 13:29:57 - Die Wortlaenge ist: 2
+hangman: 13:29:57 - Das erratene Wort ist: 
+hangman: 13:29:57 - __÷ÿ
+hangman: 13:29:58 - Der eingebene Versuchsbuchstabe ist: j.
+hangman: 13:29:58 - hurra, Der Buchstabe: j kommt tatsÃ¤chlich vor.
+hangman: 13:29:58 - 1 Versuche wurden aufgrund richtiger Eingabe gutgeschrieben.
+
+hangman: 13:29:58 - Versuche es noch einmal bitte, du hast noch 5 Versuche!
+hangman: 13:29:58 - Das erratene Wort ist: 
+hangman: 13:29:58 - j_÷ÿ
+hangman: 13:29:58 - 1 Versuche wurden aufgrund richtiger Eingabe gutgeschrieben.
+
+hangman: 13:29:58 - Versuche es noch einmal bitte, du hast noch 6 Versuche!
+hangman: 13:29:58 - Das erratene Wort ist: 
+hangman: 13:29:58 - j_÷ÿ
+hangman: 13:29:59 - Der eingebene Versuchsbuchstabe ist: e.
+hangman: 13:29:59 - 0 Versuche wurden aufgrund richtiger Eingabe gutgeschrieben.
+
+hangman: 13:29:59 - Versuche es noch einmal bitte, du hast noch 5 Versuche!
+hangman: 13:29:59 - Das erratene Wort ist: 
+hangman: 13:29:59 - j_÷ÿ
+hangman: 13:29:59 - hurra, Der Buchstabe: e kommt tatsÃ¤chlich vor.
+hangman: 13:29:59 - 1 Versuche wurden aufgrund richtiger Eingabe gutgeschrieben.
+
+hangman: 13:29:59 - Versuche es noch einmal bitte, du hast noch 6 Versuche!
+hangman: 13:29:59 - Das erratene Wort ist: 
+hangman: 13:29:59 - je÷ÿ
+hangman: 13:29:59 - hip hip hurra. Alles richtig.
+hangman: 13:30:05 - Diese Spielrunde ist vorbei.
+hangman: 13:30:16 - Hangman Spiel Beginn
+
+hangman: 13:31:18 - Das zu erratene Wort ist: bo
+hangman: 13:31:23 - Die Wortlaenge ist: 2
+hangman: 13:31:23 - Das erratene Wort ist: 
+hangman: 13:31:23 - __÷ÿ
+hangman: 13:31:27 - Der eingebene Versuchsbuchstabe ist: b.
+hangman: 13:31:27 - hurra, Der Buchstabe: b kommt tatsÃ¤chlich vor.
+hangman: 13:31:27 - 1 Versuche wurden aufgrund richtiger Eingabe gutgeschrieben.
+
+hangman: 13:31:27 - Versuche es noch einmal bitte, du hast noch 5 Versuche!
+hangman: 13:31:27 - Das erratene Wort ist: 
+hangman: 13:31:27 - b_÷ÿ
+hangman: 13:31:27 - 1 Versuche wurden aufgrund richtiger Eingabe gutgeschrieben.
+
+hangman: 13:31:27 - Versuche es noch einmal bitte, du hast noch 6 Versuche!
+hangman: 13:31:27 - Das erratene Wort ist: 
+hangman: 13:31:27 - b_÷ÿ
+hangman: 13:31:28 - Der eingebene Versuchsbuchstabe ist: o.
+hangman: 13:31:28 - 0 Versuche wurden aufgrund richtiger Eingabe gutgeschrieben.
+
+hangman: 13:31:28 - Versuche es noch einmal bitte, du hast noch 5 Versuche!
+hangman: 13:31:28 - Das erratene Wort ist: 
+hangman: 13:31:28 - b_÷ÿ
+hangman: 13:31:28 - hurra, Der Buchstabe: o kommt tatsÃ¤chlich vor.
+hangman: 13:31:28 - 1 Versuche wurden aufgrund richtiger Eingabe gutgeschrieben.
+
+hangman: 13:31:28 - Versuche es noch einmal bitte, du hast noch 6 Versuche!
+hangman: 13:31:28 - Das erratene Wort ist: 
+hangman: 13:31:28 - bo÷ÿ
+hangman: 13:31:28 - hip hip hurra. Alles richtig.
+hangman: 13:31:33 - Diese Spielrunde ist vorbei.
+hangman: 13:31:33 - Game over.
+hangman: 13:31:43 - Spielrunden angegeben: 2
+
+hangman: 13:31:43 - Hangman Spiel Beginn
+
+hangman: 13:31:48 - Das zu erratene Wort ist: jes
+hangman: 13:31:48 - Die Wortlaenge ist: 3
+hangman: 13:31:48 - Das erratene Wort ist: 
+hangman: 13:31:48 - ___ÿ
+hangman: 13:31:50 - Der eingebene Versuchsbuchstabe ist: k.
+hangman: 13:31:50 - 0 Versuche wurden aufgrund richtiger Eingabe gutgeschrieben.
+
+hangman: 13:31:50 - Versuche es noch einmal bitte, du hast noch 6 Versuche!
+hangman: 13:31:50 - Das erratene Wort ist: 
+hangman: 13:31:50 - ___ÿ
+hangman: 13:31:50 - 0 Versuche wurden aufgrund richtiger Eingabe gutgeschrieben.
+
+hangman: 13:31:50 - Versuche es noch einmal bitte, du hast noch 6 Versuche!
+hangman: 13:31:50 - Das erratene Wort ist: 
+hangman: 13:31:50 - ___ÿ
+hangman: 13:31:50 - 0 Versuche wurden aufgrund richtiger Eingabe gutgeschrieben.
+
+hangman: 13:31:50 - Versuche es noch einmal bitte, du hast noch 6 Versuche!
+hangman: 13:31:50 - Das erratene Wort ist: 
+hangman: 13:31:50 - ___ÿ
+hangman: 13:31:51 - Der eingebene Versuchsbuchstabe ist: e.
+hangman: 13:31:51 - 0 Versuche wurden aufgrund richtiger Eingabe gutgeschrieben.
+
+hangman: 13:31:51 - Versuche es noch einmal bitte, du hast noch 5 Versuche!
+hangman: 13:31:51 - Das erratene Wort ist: 
+hangman: 13:31:51 - ___ÿ
+hangman: 13:31:51 - hurra, Der Buchstabe: e kommt tatsÃ¤chlich vor.
+hangman: 13:31:51 - 1 Versuche wurden aufgrund richtiger Eingabe gutgeschrieben.
+
+hangman: 13:31:51 - Versuche es noch einmal bitte, du hast noch 6 Versuche!
+hangman: 13:31:51 - Das erratene Wort ist: 
+hangman: 13:31:51 - _e_ÿ
+hangman: 13:31:51 - 1 Versuche wurden aufgrund richtiger Eingabe gutgeschrieben.
+
+hangman: 13:31:51 - Versuche es noch einmal bitte, du hast noch 7 Versuche!
+hangman: 13:31:51 - Das erratene Wort ist: 
+hangman: 13:31:51 - _e_ÿ
+hangman: 13:31:52 - Der eingebene Versuchsbuchstabe ist: s.
+hangman: 13:31:52 - 0 Versuche wurden aufgrund richtiger Eingabe gutgeschrieben.
+
+hangman: 13:31:52 - Versuche es noch einmal bitte, du hast noch 6 Versuche!
+hangman: 13:31:52 - Das erratene Wort ist: 
+hangman: 13:31:52 - _e_ÿ
+hangman: 13:31:52 - 0 Versuche wurden aufgrund richtiger Eingabe gutgeschrieben.
+
+hangman: 13:31:52 - Versuche es noch einmal bitte, du hast noch 6 Versuche!
+hangman: 13:31:52 - Das erratene Wort ist: 
+hangman: 13:31:52 - _e_ÿ
+hangman: 13:31:52 - hurra, Der Buchstabe: s kommt tatsÃ¤chlich vor.
+hangman: 13:31:52 - 1 Versuche wurden aufgrund richtiger Eingabe gutgeschrieben.
+
+hangman: 13:31:52 - Versuche es noch einmal bitte, du hast noch 7 Versuche!
+hangman: 13:31:52 - Das erratene Wort ist: 
+hangman: 13:31:52 - _esÿ
+hangman: 13:31:52 - Der eingebene Versuchsbuchstabe ist: j.
+hangman: 13:31:52 - hurra, Der Buchstabe: j kommt tatsÃ¤chlich vor.
+hangman: 13:31:52 - 1 Versuche wurden aufgrund richtiger Eingabe gutgeschrieben.
+
+hangman: 13:31:52 - Versuche es noch einmal bitte, du hast noch 7 Versuche!
+hangman: 13:31:52 - Das erratene Wort ist: 
+hangman: 13:31:52 - jesÿ
+hangman: 13:31:52 - 1 Versuche wurden aufgrund richtiger Eingabe gutgeschrieben.
+
+hangman: 13:31:52 - Versuche es noch einmal bitte, du hast noch 8 Versuche!
+hangman: 13:31:52 - Das erratene Wort ist: 
+hangman: 13:31:52 - jesÿ
+hangman: 13:31:52 - 1 Versuche wurden aufgrund richtiger Eingabe gutgeschrieben.
+
+hangman: 13:31:52 - Versuche es noch einmal bitte, du hast noch 9 Versuche!
+hangman: 13:31:52 - Das erratene Wort ist: 
+hangman: 13:31:52 - jesÿ
+hangman: 13:31:52 - hip hip hurra. Alles richtig.
+hangman: 13:31:52 - Diese Spielrunde ist vorbei.
+hangman: 13:31:52 - Hangman Spiel Beginn
+
+hangman: 13:31:57 - Das zu erratene Wort ist: bojin
+hangman: 13:31:57 - Die Wortlaenge ist: 5
+hangman: 13:31:57 - Das erratene Wort ist: 
+hangman: 13:31:57 - _____
+hangman: 13:32:00 - Der eingebene Versuchsbuchstabe ist: b.
+hangman: 13:32:00 - hurra, Der Buchstabe: b kommt tatsÃ¤chlich vor.
+hangman: 13:32:00 - 1 Versuche wurden aufgrund richtiger Eingabe gutgeschrieben.
+
+hangman: 13:32:00 - Versuche es noch einmal bitte, du hast noch 11 Versuche!
+hangman: 13:32:00 - Das erratene Wort ist: 
+hangman: 13:32:00 - b____
+hangman: 13:32:00 - 1 Versuche wurden aufgrund richtiger Eingabe gutgeschrieben.
+
+hangman: 13:32:00 - Versuche es noch einmal bitte, du hast noch 12 Versuche!
+hangman: 13:32:00 - Das erratene Wort ist: 
+hangman: 13:32:00 - b____
+hangman: 13:32:00 - 1 Versuche wurden aufgrund richtiger Eingabe gutgeschrieben.
+
+hangman: 13:32:00 - Versuche es noch einmal bitte, du hast noch 13 Versuche!
+hangman: 13:32:00 - Das erratene Wort ist: 
+hangman: 13:32:00 - b____
+hangman: 13:32:00 - 1 Versuche wurden aufgrund richtiger Eingabe gutgeschrieben.
+
+hangman: 13:32:00 - Versuche es noch einmal bitte, du hast noch 14 Versuche!
+hangman: 13:32:00 - Das erratene Wort ist: 
+hangman: 13:32:00 - b____
+hangman: 13:32:00 - 1 Versuche wurden aufgrund richtiger Eingabe gutgeschrieben.
+
+hangman: 13:32:00 - Versuche es noch einmal bitte, du hast noch 15 Versuche!
+hangman: 13:32:00 - Das erratene Wort ist: 
+hangman: 13:32:00 - b____
+hangman: 13:32:02 - Der eingebene Versuchsbuchstabe ist: k.
+hangman: 13:32:02 - 0 Versuche wurden aufgrund richtiger Eingabe gutgeschrieben.
+
+hangman: 13:32:02 - Versuche es noch einmal bitte, du hast noch 14 Versuche!
+hangman: 13:32:02 - Das erratene Wort ist: 
+hangman: 13:32:02 - b____
+hangman: 13:32:02 - 0 Versuche wurden aufgrund richtiger Eingabe gutgeschrieben.
+
+hangman: 13:32:02 - Versuche es noch einmal bitte, du hast noch 14 Versuche!
+hangman: 13:32:02 - Das erratene Wort ist: 
+hangman: 13:32:02 - b____
+hangman: 13:32:02 - 0 Versuche wurden aufgrund richtiger Eingabe gutgeschrieben.
+
+hangman: 13:32:02 - Versuche es noch einmal bitte, du hast noch 14 Versuche!
+hangman: 13:32:02 - Das erratene Wort ist: 
+hangman: 13:32:02 - b____
+hangman: 13:32:02 - 0 Versuche wurden aufgrund richtiger Eingabe gutgeschrieben.
+
+hangman: 13:32:02 - Versuche es noch einmal bitte, du hast noch 14 Versuche!
+hangman: 13:32:02 - Das erratene Wort ist: 
+hangman: 13:32:02 - b____
+hangman: 13:32:02 - 0 Versuche wurden aufgrund richtiger Eingabe gutgeschrieben.
+
+hangman: 13:32:02 - Versuche es noch einmal bitte, du hast noch 14 Versuche!
+hangman: 13:32:02 - Das erratene Wort ist: 
+hangman: 13:32:02 - b____
+hangman: 13:32:05 - Der eingebene Versuchsbuchstabe ist: k.
+hangman: 13:32:05 - 0 Versuche wurden aufgrund richtiger Eingabe gutgeschrieben.
+
+hangman: 13:32:05 - Versuche es noch einmal bitte, du hast noch 13 Versuche!
+hangman: 13:32:05 - Das erratene Wort ist: 
+hangman: 13:32:05 - b____
+hangman: 13:32:05 - 0 Versuche wurden aufgrund richtiger Eingabe gutgeschrieben.
+
+hangman: 13:32:05 - Versuche es noch einmal bitte, du hast noch 13 Versuche!
+hangman: 13:32:05 - Das erratene Wort ist: 
+hangman: 13:32:05 - b____
+hangman: 13:32:05 - 0 Versuche wurden aufgrund richtiger Eingabe gutgeschrieben.
+
+hangman: 13:32:05 - Versuche es noch einmal bitte, du hast noch 13 Versuche!
+hangman: 13:32:05 - Das erratene Wort ist: 
+hangman: 13:32:05 - b____
+hangman: 13:32:05 - 0 Versuche wurden aufgrund richtiger Eingabe gutgeschrieben.
+
+hangman: 13:32:05 - Versuche es noch einmal bitte, du hast noch 13 Versuche!
+hangman: 13:32:05 - Das erratene Wort ist: 
+hangman: 13:32:05 - b____
+hangman: 13:32:05 - 0 Versuche wurden aufgrund richtiger Eingabe gutgeschrieben.
+
+hangman: 13:32:05 - Versuche es noch einmal bitte, du hast noch 13 Versuche!
+hangman: 13:32:05 - Das erratene Wort ist: 
+hangman: 13:32:05 - b____
+hangman: 13:32:05 - Der eingebene Versuchsbuchstabe ist: a.
+hangman: 13:32:05 - 0 Versuche wurden aufgrund richtiger Eingabe gutgeschrieben.
+
+hangman: 13:32:05 - Versuche es noch einmal bitte, du hast noch 12 Versuche!
+hangman: 13:32:05 - Das erratene Wort ist: 
+hangman: 13:32:05 - b____
+hangman: 13:32:05 - 0 Versuche wurden aufgrund richtiger Eingabe gutgeschrieben.
+
+hangman: 13:32:05 - Versuche es noch einmal bitte, du hast noch 12 Versuche!
+hangman: 13:32:05 - Das erratene Wort ist: 
+hangman: 13:32:05 - b____
+hangman: 13:32:05 - 0 Versuche wurden aufgrund richtiger Eingabe gutgeschrieben.
+
+hangman: 13:32:05 - Versuche es noch einmal bitte, du hast noch 12 Versuche!
+hangman: 13:32:05 - Das erratene Wort ist: 
+hangman: 13:32:05 - b____
+hangman: 13:32:05 - 0 Versuche wurden aufgrund richtiger Eingabe gutgeschrieben.
+
+hangman: 13:32:05 - Versuche es noch einmal bitte, du hast noch 12 Versuche!
+hangman: 13:32:05 - Das erratene Wort ist: 
+hangman: 13:32:05 - b____
+hangman: 13:32:05 - 0 Versuche wurden aufgrund richtiger Eingabe gutgeschrieben.
+
+hangman: 13:32:05 - Versuche es noch einmal bitte, du hast noch 12 Versuche!
+hangman: 13:32:05 - Das erratene Wort ist: 
+hangman: 13:32:05 - b____
+hangman: 13:32:05 - Der eingebene Versuchsbuchstabe ist: s.
+hangman: 13:32:05 - 0 Versuche wurden aufgrund richtiger Eingabe gutgeschrieben.
+
+hangman: 13:32:05 - Versuche es noch einmal bitte, du hast noch 11 Versuche!
+hangman: 13:32:05 - Das erratene Wort ist: 
+hangman: 13:32:05 - b____
+hangman: 13:32:05 - 0 Versuche wurden aufgrund richtiger Eingabe gutgeschrieben.
+
+hangman: 13:32:05 - Versuche es noch einmal bitte, du hast noch 11 Versuche!
+hangman: 13:32:05 - Das erratene Wort ist: 
+hangman: 13:32:05 - b____
+hangman: 13:32:05 - 0 Versuche wurden aufgrund richtiger Eingabe gutgeschrieben.
+
+hangman: 13:32:05 - Versuche es noch einmal bitte, du hast noch 11 Versuche!
+hangman: 13:32:05 - Das erratene Wort ist: 
+hangman: 13:32:05 - b____
+hangman: 13:32:05 - 0 Versuche wurden aufgrund richtiger Eingabe gutgeschrieben.
+
+hangman: 13:32:05 - Versuche es noch einmal bitte, du hast noch 11 Versuche!
+hangman: 13:32:05 - Das erratene Wort ist: 
+hangman: 13:32:05 - b____
+hangman: 13:32:05 - 0 Versuche wurden aufgrund richtiger Eingabe gutgeschrieben.
+
+hangman: 13:32:05 - Versuche es noch einmal bitte, du hast noch 11 Versuche!
+hangman: 13:32:05 - Das erratene Wort ist: 
+hangman: 13:32:05 - b____
+hangman: 13:32:05 - Der eingebene Versuchsbuchstabe ist: d.
+hangman: 13:32:05 - 0 Versuche wurden aufgrund richtiger Eingabe gutgeschrieben.
+
+hangman: 13:32:05 - Versuche es noch einmal bitte, du hast noch 10 Versuche!
+hangman: 13:32:05 - Das erratene Wort ist: 
+hangman: 13:32:05 - b____
+hangman: 13:32:05 - 0 Versuche wurden aufgrund richtiger Eingabe gutgeschrieben.
+
+hangman: 13:32:05 - Versuche es noch einmal bitte, du hast noch 10 Versuche!
+hangman: 13:32:05 - Das erratene Wort ist: 
+hangman: 13:32:05 - b____
+hangman: 13:32:05 - 0 Versuche wurden aufgrund richtiger Eingabe gutgeschrieben.
+
+hangman: 13:32:05 - Versuche es noch einmal bitte, du hast noch 10 Versuche!
+hangman: 13:32:05 - Das erratene Wort ist: 
+hangman: 13:32:05 - b____
+hangman: 13:32:05 - 0 Versuche wurden aufgrund richtiger Eingabe gutgeschrieben.
+
+hangman: 13:32:05 - Versuche es noch einmal bitte, du hast noch 10 Versuche!
+hangman: 13:32:05 - Das erratene Wort ist: 
+hangman: 13:32:05 - b____
+hangman: 13:32:05 - 0 Versuche wurden aufgrund richtiger Eingabe gutgeschrieben.
+
+hangman: 13:32:05 - Versuche es noch einmal bitte, du hast noch 10 Versuche!
+hangman: 13:32:05 - Das erratene Wort ist: 
+hangman: 13:32:05 - b____
+hangman: 13:32:05 - Der eingebene Versuchsbuchstabe ist: f.
+hangman: 13:32:05 - 0 Versuche wurden aufgrund richtiger Eingabe gutgeschrieben.
+
+hangman: 13:32:05 - Versuche es noch einmal bitte, du hast noch 9 Versuche!
+hangman: 13:32:05 - Das erratene Wort ist: 
+hangman: 13:32:05 - b____
+hangman: 13:32:05 - 0 Versuche wurden aufgrund richtiger Eingabe gutgeschrieben.
+
+hangman: 13:32:05 - Versuche es noch einmal bitte, du hast noch 9 Versuche!
+hangman: 13:32:05 - Das erratene Wort ist: 
+hangman: 13:32:05 - b____
+hangman: 13:32:05 - 0 Versuche wurden aufgrund richtiger Eingabe gutgeschrieben.
+
+hangman: 13:32:05 - Versuche es noch einmal bitte, du hast noch 9 Versuche!
+hangman: 13:32:05 - Das erratene Wort ist: 
+hangman: 13:32:05 - b____
+hangman: 13:32:05 - 0 Versuche wurden aufgrund richtiger Eingabe gutgeschrieben.
+
+hangman: 13:32:05 - Versuche es noch einmal bitte, du hast noch 9 Versuche!
+hangman: 13:32:05 - Das erratene Wort ist: 
+hangman: 13:32:05 - b____
+hangman: 13:32:05 - 0 Versuche wurden aufgrund richtiger Eingabe gutgeschrieben.
+
+hangman: 13:32:05 - Versuche es noch einmal bitte, du hast noch 9 Versuche!
+hangman: 13:32:05 - Das erratene Wort ist: 
+hangman: 13:32:05 - b____
+hangman: 13:32:08 - Der eingebene Versuchsbuchstabe ist: h.
+hangman: 13:32:08 - 0 Versuche wurden aufgrund richtiger Eingabe gutgeschrieben.
+
+hangman: 13:32:08 - Versuche es noch einmal bitte, du hast noch 8 Versuche!
+hangman: 13:32:08 - Das erratene Wort ist: 
+hangman: 13:32:08 - b____
+hangman: 13:32:08 - 0 Versuche wurden aufgrund richtiger Eingabe gutgeschrieben.
+
+hangman: 13:32:08 - Versuche es noch einmal bitte, du hast noch 8 Versuche!
+hangman: 13:32:08 - Das erratene Wort ist: 
+hangman: 13:32:08 - b____
+hangman: 13:32:08 - 0 Versuche wurden aufgrund richtiger Eingabe gutgeschrieben.
+
+hangman: 13:32:08 - Versuche es noch einmal bitte, du hast noch 8 Versuche!
+hangman: 13:32:08 - Das erratene Wort ist: 
+hangman: 13:32:08 - b____
+hangman: 13:32:08 - 0 Versuche wurden aufgrund richtiger Eingabe gutgeschrieben.
+
+hangman: 13:32:08 - Versuche es noch einmal bitte, du hast noch 8 Versuche!
+hangman: 13:32:08 - Das erratene Wort ist: 
+hangman: 13:32:08 - b____
+hangman: 13:32:08 - 0 Versuche wurden aufgrund richtiger Eingabe gutgeschrieben.
+
+hangman: 13:32:08 - Versuche es noch einmal bitte, du hast noch 8 Versuche!
+hangman: 13:32:08 - Das erratene Wort ist: 
+hangman: 13:32:08 - b____
+hangman: 13:32:16 - Der eingebene Versuchsbuchstabe ist: e.
+hangman: 13:32:16 - 0 Versuche wurden aufgrund richtiger Eingabe gutgeschrieben.
+
+hangman: 13:32:16 - Versuche es noch einmal bitte, du hast noch 7 Versuche!
+hangman: 13:32:16 - Das erratene Wort ist: 
+hangman: 13:32:16 - b____
+hangman: 13:32:16 - 0 Versuche wurden aufgrund richtiger Eingabe gutgeschrieben.
+
+hangman: 13:32:16 - Versuche es noch einmal bitte, du hast noch 7 Versuche!
+hangman: 13:32:16 - Das erratene Wort ist: 
+hangman: 13:32:16 - b____
+hangman: 13:32:16 - 0 Versuche wurden aufgrund richtiger Eingabe gutgeschrieben.
+
+hangman: 13:32:16 - Versuche es noch einmal bitte, du hast noch 7 Versuche!
+hangman: 13:32:16 - Das erratene Wort ist: 
+hangman: 13:32:16 - b____
+hangman: 13:32:16 - 0 Versuche wurden aufgrund richtiger Eingabe gutgeschrieben.
+
+hangman: 13:32:16 - Versuche es noch einmal bitte, du hast noch 7 Versuche!
+hangman: 13:32:16 - Das erratene Wort ist: 
+hangman: 13:32:16 - b____
+hangman: 13:32:16 - 0 Versuche wurden aufgrund richtiger Eingabe gutgeschrieben.
+
+hangman: 13:32:16 - Versuche es noch einmal bitte, du hast noch 7 Versuche!
+hangman: 13:32:16 - Das erratene Wort ist: 
+hangman: 13:32:16 - b____
+hangman: 13:32:17 - Der eingebene Versuchsbuchstabe ist: a.
+hangman: 13:32:17 - 0 Versuche wurden aufgrund richtiger Eingabe gutgeschrieben.
+
+hangman: 13:32:17 - Versuche es noch einmal bitte, du hast noch 6 Versuche!
+hangman: 13:32:17 - Das erratene Wort ist: 
+hangman: 13:32:17 - b____
+hangman: 13:32:17 - 0 Versuche wurden aufgrund richtiger Eingabe gutgeschrieben.
+
+hangman: 13:32:17 - Versuche es noch einmal bitte, du hast noch 6 Versuche!
+hangman: 13:32:17 - Das erratene Wort ist: 
+hangman: 13:32:17 - b____
+hangman: 13:32:17 - 0 Versuche wurden aufgrund richtiger Eingabe gutgeschrieben.
+
+hangman: 13:32:17 - Versuche es noch einmal bitte, du hast noch 6 Versuche!
+hangman: 13:32:17 - Das erratene Wort ist: 
+hangman: 13:32:17 - b____
+hangman: 13:32:17 - 0 Versuche wurden aufgrund richtiger Eingabe gutgeschrieben.
+
+hangman: 13:32:17 - Versuche es noch einmal bitte, du hast noch 6 Versuche!
+hangman: 13:32:17 - Das erratene Wort ist: 
+hangman: 13:32:17 - b____
+hangman: 13:32:17 - 0 Versuche wurden aufgrund richtiger Eingabe gutgeschrieben.
+
+hangman: 13:32:17 - Versuche es noch einmal bitte, du hast noch 6 Versuche!
+hangman: 13:32:17 - Das erratene Wort ist: 
+hangman: 13:32:17 - b____
+hangman: 13:32:17 - Der eingebene Versuchsbuchstabe ist: s.
+hangman: 13:32:17 - 0 Versuche wurden aufgrund richtiger Eingabe gutgeschrieben.
+
+hangman: 13:32:17 - Versuche es noch einmal bitte, du hast noch 5 Versuche!
+hangman: 13:32:17 - Das erratene Wort ist: 
+hangman: 13:32:17 - b____
+hangman: 13:32:17 - 0 Versuche wurden aufgrund richtiger Eingabe gutgeschrieben.
+
+hangman: 13:32:17 - Versuche es noch einmal bitte, du hast noch 5 Versuche!
+hangman: 13:32:17 - Das erratene Wort ist: 
+hangman: 13:32:17 - b____
+hangman: 13:32:17 - 0 Versuche wurden aufgrund richtiger Eingabe gutgeschrieben.
+
+hangman: 13:32:17 - Versuche es noch einmal bitte, du hast noch 5 Versuche!
+hangman: 13:32:17 - Das erratene Wort ist: 
+hangman: 13:32:17 - b____
+hangman: 13:32:17 - 0 Versuche wurden aufgrund richtiger Eingabe gutgeschrieben.
+
+hangman: 13:32:17 - Versuche es noch einmal bitte, du hast noch 5 Versuche!
+hangman: 13:32:17 - Das erratene Wort ist: 
+hangman: 13:32:17 - b____
+hangman: 13:32:17 - 0 Versuche wurden aufgrund richtiger Eingabe gutgeschrieben.
+
+hangman: 13:32:17 - Versuche es noch einmal bitte, du hast noch 5 Versuche!
+hangman: 13:32:17 - Das erratene Wort ist: 
+hangman: 13:32:17 - b____
+hangman: 13:32:17 - Der eingebene Versuchsbuchstabe ist: d.
+hangman: 13:32:17 - 0 Versuche wurden aufgrund richtiger Eingabe gutgeschrieben.
+
+hangman: 13:32:17 - Versuche es noch einmal bitte, du hast noch 4 Versuche!
+hangman: 13:32:17 - Das erratene Wort ist: 
+hangman: 13:32:17 - b____
+hangman: 13:32:17 - 0 Versuche wurden aufgrund richtiger Eingabe gutgeschrieben.
+
+hangman: 13:32:17 - Versuche es noch einmal bitte, du hast noch 4 Versuche!
+hangman: 13:32:17 - Das erratene Wort ist: 
+hangman: 13:32:17 - b____
+hangman: 13:32:17 - 0 Versuche wurden aufgrund richtiger Eingabe gutgeschrieben.
+
+hangman: 13:32:17 - Versuche es noch einmal bitte, du hast noch 4 Versuche!
+hangman: 13:32:17 - Das erratene Wort ist: 
+hangman: 13:32:17 - b____
+hangman: 13:32:17 - 0 Versuche wurden aufgrund richtiger Eingabe gutgeschrieben.
+
+hangman: 13:32:17 - Versuche es noch einmal bitte, du hast noch 4 Versuche!
+hangman: 13:32:17 - Das erratene Wort ist: 
+hangman: 13:32:17 - b____
+hangman: 13:32:17 - 0 Versuche wurden aufgrund richtiger Eingabe gutgeschrieben.
+
+hangman: 13:32:17 - Versuche es noch einmal bitte, du hast noch 4 Versuche!
+hangman: 13:32:17 - Das erratene Wort ist: 
+hangman: 13:32:17 - b____
+hangman: 13:32:17 - Der eingebene Versuchsbuchstabe ist: f.
+hangman: 13:32:17 - 0 Versuche wurden aufgrund richtiger Eingabe gutgeschrieben.
+
+hangman: 13:32:17 - Versuche es noch einmal bitte, du hast noch 3 Versuche!
+hangman: 13:32:17 - Das erratene Wort ist: 
+hangman: 13:32:17 - b____
+hangman: 13:32:17 - 0 Versuche wurden aufgrund richtiger Eingabe gutgeschrieben.
+
+hangman: 13:32:17 - Versuche es noch einmal bitte, du hast noch 3 Versuche!
+hangman: 13:32:17 - Das erratene Wort ist: 
+hangman: 13:32:17 - b____
+hangman: 13:32:17 - 0 Versuche wurden aufgrund richtiger Eingabe gutgeschrieben.
+
+hangman: 13:32:17 - Versuche es noch einmal bitte, du hast noch 3 Versuche!
+hangman: 13:32:17 - Das erratene Wort ist: 
+hangman: 13:32:17 - b____
+hangman: 13:32:17 - 0 Versuche wurden aufgrund richtiger Eingabe gutgeschrieben.
+
+hangman: 13:32:17 - Versuche es noch einmal bitte, du hast noch 3 Versuche!
+hangman: 13:32:17 - Das erratene Wort ist: 
+hangman: 13:32:17 - b____
+hangman: 13:32:17 - 0 Versuche wurden aufgrund richtiger Eingabe gutgeschrieben.
+
+hangman: 13:32:17 - Versuche es noch einmal bitte, du hast noch 3 Versuche!
+hangman: 13:32:17 - Das erratene Wort ist: 
+hangman: 13:32:17 - b____
+hangman: 13:32:18 - Der eingebene Versuchsbuchstabe ist: i.
+hangman: 13:32:18 - 0 Versuche wurden aufgrund richtiger Eingabe gutgeschrieben.
+
+hangman: 13:32:18 - Versuche es noch einmal bitte, du hast noch 2 Versuche!
+hangman: 13:32:18 - Das erratene Wort ist: 
+hangman: 13:32:18 - b____
+hangman: 13:32:18 - 0 Versuche wurden aufgrund richtiger Eingabe gutgeschrieben.
+
+hangman: 13:32:18 - Versuche es noch einmal bitte, du hast noch 2 Versuche!
+hangman: 13:32:18 - Das erratene Wort ist: 
+hangman: 13:32:18 - b____
+hangman: 13:32:18 - 0 Versuche wurden aufgrund richtiger Eingabe gutgeschrieben.
+
+hangman: 13:32:18 - Versuche es noch einmal bitte, du hast noch 2 Versuche!
+hangman: 13:32:18 - Das erratene Wort ist: 
+hangman: 13:32:18 - b____
+hangman: 13:32:18 - hurra, Der Buchstabe: i kommt tatsÃ¤chlich vor.
+hangman: 13:32:18 - 1 Versuche wurden aufgrund richtiger Eingabe gutgeschrieben.
+
+hangman: 13:32:18 - Versuche es noch einmal bitte, du hast noch 3 Versuche!
+hangman: 13:32:18 - Das erratene Wort ist: 
+hangman: 13:32:18 - b__i_
+hangman: 13:32:18 - 1 Versuche wurden aufgrund richtiger Eingabe gutgeschrieben.
+
+hangman: 13:32:18 - Versuche es noch einmal bitte, du hast noch 4 Versuche!
+hangman: 13:32:18 - Das erratene Wort ist: 
+hangman: 13:32:18 - b__i_
+hangman: 13:32:21 - Der eingebene Versuchsbuchstabe ist: o.
+hangman: 13:32:21 - 0 Versuche wurden aufgrund richtiger Eingabe gutgeschrieben.
+
+hangman: 13:32:21 - Versuche es noch einmal bitte, du hast noch 3 Versuche!
+hangman: 13:32:21 - Das erratene Wort ist: 
+hangman: 13:32:21 - b__i_
+hangman: 13:32:21 - hurra, Der Buchstabe: o kommt tatsÃ¤chlich vor.
+hangman: 13:32:21 - 1 Versuche wurden aufgrund richtiger Eingabe gutgeschrieben.
+
+hangman: 13:32:21 - Versuche es noch einmal bitte, du hast noch 4 Versuche!
+hangman: 13:32:21 - Das erratene Wort ist: 
+hangman: 13:32:21 - bo_i_
+hangman: 13:32:21 - 1 Versuche wurden aufgrund richtiger Eingabe gutgeschrieben.
+
+hangman: 13:32:21 - Versuche es noch einmal bitte, du hast noch 5 Versuche!
+hangman: 13:32:21 - Das erratene Wort ist: 
+hangman: 13:32:21 - bo_i_
+hangman: 13:32:21 - 1 Versuche wurden aufgrund richtiger Eingabe gutgeschrieben.
+
+hangman: 13:32:21 - Versuche es noch einmal bitte, du hast noch 6 Versuche!
+hangman: 13:32:21 - Das erratene Wort ist: 
+hangman: 13:32:21 - bo_i_
+hangman: 13:32:21 - 1 Versuche wurden aufgrund richtiger Eingabe gutgeschrieben.
+
+hangman: 13:32:21 - Versuche es noch einmal bitte, du hast noch 7 Versuche!
+hangman: 13:32:21 - Das erratene Wort ist: 
+hangman: 13:32:21 - bo_i_
+hangman: 13:32:22 - Der eingebene Versuchsbuchstabe ist: j.
+hangman: 13:32:22 - 0 Versuche wurden aufgrund richtiger Eingabe gutgeschrieben.
+
+hangman: 13:32:22 - Versuche es noch einmal bitte, du hast noch 6 Versuche!
+hangman: 13:32:22 - Das erratene Wort ist: 
+hangman: 13:32:22 - bo_i_
+hangman: 13:32:22 - 0 Versuche wurden aufgrund richtiger Eingabe gutgeschrieben.
+
+hangman: 13:32:22 - Versuche es noch einmal bitte, du hast noch 6 Versuche!
+hangman: 13:32:22 - Das erratene Wort ist: 
+hangman: 13:32:22 - bo_i_
+hangman: 13:32:22 - hurra, Der Buchstabe: j kommt tatsÃ¤chlich vor.
+hangman: 13:32:22 - 1 Versuche wurden aufgrund richtiger Eingabe gutgeschrieben.
+
+hangman: 13:32:22 - Versuche es noch einmal bitte, du hast noch 7 Versuche!
+hangman: 13:32:22 - Das erratene Wort ist: 
+hangman: 13:32:22 - boji_
+hangman: 13:32:22 - 1 Versuche wurden aufgrund richtiger Eingabe gutgeschrieben.
+
+hangman: 13:32:22 - Versuche es noch einmal bitte, du hast noch 8 Versuche!
+hangman: 13:32:22 - Das erratene Wort ist: 
+hangman: 13:32:22 - boji_
+hangman: 13:32:22 - 1 Versuche wurden aufgrund richtiger Eingabe gutgeschrieben.
+
+hangman: 13:32:22 - Versuche es noch einmal bitte, du hast noch 9 Versuche!
+hangman: 13:32:22 - Das erratene Wort ist: 
+hangman: 13:32:22 - boji_
+hangman: 13:32:23 - Der eingebene Versuchsbuchstabe ist: n.
+hangman: 13:32:23 - 0 Versuche wurden aufgrund richtiger Eingabe gutgeschrieben.
+
+hangman: 13:32:23 - Versuche es noch einmal bitte, du hast noch 8 Versuche!
+hangman: 13:32:23 - Das erratene Wort ist: 
+hangman: 13:32:23 - boji_
+hangman: 13:32:23 - 0 Versuche wurden aufgrund richtiger Eingabe gutgeschrieben.
+
+hangman: 13:32:23 - Versuche es noch einmal bitte, du hast noch 8 Versuche!
+hangman: 13:32:23 - Das erratene Wort ist: 
+hangman: 13:32:23 - boji_
+hangman: 13:32:23 - 0 Versuche wurden aufgrund richtiger Eingabe gutgeschrieben.
+
+hangman: 13:32:23 - Versuche es noch einmal bitte, du hast noch 8 Versuche!
+hangman: 13:32:23 - Das erratene Wort ist: 
+hangman: 13:32:23 - boji_
+hangman: 13:32:23 - 0 Versuche wurden aufgrund richtiger Eingabe gutgeschrieben.
+
+hangman: 13:32:23 - Versuche es noch einmal bitte, du hast noch 8 Versuche!
+hangman: 13:32:23 - Das erratene Wort ist: 
+hangman: 13:32:23 - boji_
+hangman: 13:32:23 - hurra, Der Buchstabe: n kommt tatsÃ¤chlich vor.
+hangman: 13:32:23 - 1 Versuche wurden aufgrund richtiger Eingabe gutgeschrieben.
+
+hangman: 13:32:23 - Versuche es noch einmal bitte, du hast noch 9 Versuche!
+hangman: 13:32:23 - Das erratene Wort ist: 
+hangman: 13:32:23 - bojin
+hangman: 13:32:23 - hip hip hurra. Alles richtig.
+hangman: 13:32:23 - Diese Spielrunde ist vorbei.
+hangman: 13:32:23 - Game over.
+hangman: 13:32:33 - Spielrunden angegeben: 2
+
+hangman: 13:32:33 - Hangman Spiel Beginn
+
+hangman: 13:32:36 - Das zu erratene Wort ist: bo
+hangman: 13:32:36 - Die Wortlaenge ist: 2
+hangman: 13:32:36 - Das erratene Wort ist: 
+hangman: 13:32:36 - __a
+hangman: 13:32:38 - Der eingebene Versuchsbuchstabe ist: o.
+hangman: 13:32:38 - 0 Versuche wurden aufgrund richtiger Eingabe gutgeschrieben.
+
+hangman: 13:32:38 - Versuche es noch einmal bitte, du hast noch 4 Versuche!
+hangman: 13:32:38 - Das erratene Wort ist: 
+hangman: 13:32:38 - __a
+hangman: 13:32:38 - hurra, Der Buchstabe: o kommt tatsÃ¤chlich vor.
+hangman: 13:32:38 - 1 Versuche wurden aufgrund richtiger Eingabe gutgeschrieben.
+
+hangman: 13:32:38 - Versuche es noch einmal bitte, du hast noch 5 Versuche!
+hangman: 13:32:38 - Das erratene Wort ist: 
+hangman: 13:32:38 - _oa
+hangman: 13:32:39 - Der eingebene Versuchsbuchstabe ist: n.
+hangman: 13:32:39 - 0 Versuche wurden aufgrund richtiger Eingabe gutgeschrieben.
+
+hangman: 13:32:39 - Versuche es noch einmal bitte, du hast noch 4 Versuche!
+hangman: 13:32:39 - Das erratene Wort ist: 
+hangman: 13:32:39 - _oa
+hangman: 13:32:39 - 0 Versuche wurden aufgrund richtiger Eingabe gutgeschrieben.
+
+hangman: 13:32:39 - Versuche es noch einmal bitte, du hast noch 4 Versuche!
+hangman: 13:32:39 - Das erratene Wort ist: 
+hangman: 13:32:39 - _oa
+hangman: 13:32:42 - Der eingebene Versuchsbuchstabe ist: b.
+hangman: 13:32:42 - hurra, Der Buchstabe: b kommt tatsÃ¤chlich vor.
+hangman: 13:32:42 - 1 Versuche wurden aufgrund richtiger Eingabe gutgeschrieben.
+
+hangman: 13:32:42 - Versuche es noch einmal bitte, du hast noch 4 Versuche!
+hangman: 13:32:42 - Das erratene Wort ist: 
+hangman: 13:32:42 - boa
+hangman: 13:32:42 - 1 Versuche wurden aufgrund richtiger Eingabe gutgeschrieben.
+
+hangman: 13:32:42 - Versuche es noch einmal bitte, du hast noch 5 Versuche!
+hangman: 13:32:42 - Das erratene Wort ist: 
+hangman: 13:32:42 - boa
+hangman: 13:32:42 - hip hip hurra. Alles richtig.
+hangman: 13:32:42 - Diese Spielrunde ist vorbei.
+hangman: 13:32:42 - Hangman Spiel Beginn
+
+hangman: 13:32:42 - Das zu erratene Wort ist: 
+hangman: 13:32:42 - Die Wortlaenge ist: 0
+hangman: 13:32:42 - Das erratene Wort ist: 
+hangman: 13:32:42 - boa
+hangman: 13:32:42 - hip hip hurra. Alles richtig.
+hangman: 13:32:42 - Diese Spielrunde ist vorbei.
+hangman: 13:32:42 - Game over.
+hangman: 13:32:48 - Spielrunden angegeben: 2
+
+hangman: 13:32:51 - Spielrunden angegeben: 2
+
+hangman: 13:33:00 - Spielrunden angegeben: 2
+
+hangman: 13:33:00 - Hangman Spiel Beginn
+
+hangman: 13:33:03 - Das zu erratene Wort ist: jes
+hangman: 13:33:03 - Die Wortlaenge ist: 3
+hangman: 13:33:03 - Das erratene Wort ist: 
+hangman: 13:33:03 - ___ü~
+hangman: 13:33:05 - Der eingebene Versuchsbuchstabe ist: s.
+hangman: 13:33:05 - 0 Versuche wurden aufgrund richtiger Eingabe gutgeschrieben.
+
+hangman: 13:33:05 - Versuche es noch einmal bitte, du hast noch 6 Versuche!
+hangman: 13:33:05 - Das erratene Wort ist: 
+hangman: 13:33:05 - ___ü~
+hangman: 13:33:05 - 0 Versuche wurden aufgrund richtiger Eingabe gutgeschrieben.
+
+hangman: 13:33:05 - Versuche es noch einmal bitte, du hast noch 6 Versuche!
+hangman: 13:33:05 - Das erratene Wort ist: 
+hangman: 13:33:05 - ___ü~
+hangman: 13:33:05 - hurra, Der Buchstabe: s kommt tatsÃ¤chlich vor.
+hangman: 13:33:05 - 1 Versuche wurden aufgrund richtiger Eingabe gutgeschrieben.
+
+hangman: 13:33:05 - Versuche es noch einmal bitte, du hast noch 7 Versuche!
+hangman: 13:33:05 - Das erratene Wort ist: 
+hangman: 13:33:05 - __sü~
+hangman: 13:33:07 - Der eingebene Versuchsbuchstabe ist: e.
+hangman: 13:33:07 - 0 Versuche wurden aufgrund richtiger Eingabe gutgeschrieben.
+
+hangman: 13:33:07 - Versuche es noch einmal bitte, du hast noch 6 Versuche!
+hangman: 13:33:07 - Das erratene Wort ist: 
+hangman: 13:33:07 - __sü~
+hangman: 13:33:07 - hurra, Der Buchstabe: e kommt tatsÃ¤chlich vor.
+hangman: 13:33:07 - 1 Versuche wurden aufgrund richtiger Eingabe gutgeschrieben.
+
+hangman: 13:33:07 - Versuche es noch einmal bitte, du hast noch 7 Versuche!
+hangman: 13:33:07 - Das erratene Wort ist: 
+hangman: 13:33:07 - _esü~
+hangman: 13:33:07 - 1 Versuche wurden aufgrund richtiger Eingabe gutgeschrieben.
+
+hangman: 13:33:07 - Versuche es noch einmal bitte, du hast noch 8 Versuche!
+hangman: 13:33:07 - Das erratene Wort ist: 
+hangman: 13:33:07 - _esü~
+hangman: 13:33:08 - Der eingebene Versuchsbuchstabe ist: o.
+hangman: 13:33:08 - 0 Versuche wurden aufgrund richtiger Eingabe gutgeschrieben.
+
+hangman: 13:33:08 - Versuche es noch einmal bitte, du hast noch 7 Versuche!
+hangman: 13:33:08 - Das erratene Wort ist: 
+hangman: 13:33:08 - _esü~
+hangman: 13:33:08 - 0 Versuche wurden aufgrund richtiger Eingabe gutgeschrieben.
+
+hangman: 13:33:08 - Versuche es noch einmal bitte, du hast noch 7 Versuche!
+hangman: 13:33:08 - Das erratene Wort ist: 
+hangman: 13:33:08 - _esü~
+hangman: 13:33:08 - 0 Versuche wurden aufgrund richtiger Eingabe gutgeschrieben.
+
+hangman: 13:33:08 - Versuche es noch einmal bitte, du hast noch 7 Versuche!
+hangman: 13:33:08 - Das erratene Wort ist: 
+hangman: 13:33:08 - _esü~
+hangman: 13:33:09 - Der eingebene Versuchsbuchstabe ist: w.
+hangman: 13:33:09 - 0 Versuche wurden aufgrund richtiger Eingabe gutgeschrieben.
+
+hangman: 13:33:09 - Versuche es noch einmal bitte, du hast noch 6 Versuche!
+hangman: 13:33:09 - Das erratene Wort ist: 
+hangman: 13:33:09 - _esü~
+hangman: 13:33:09 - 0 Versuche wurden aufgrund richtiger Eingabe gutgeschrieben.
+
+hangman: 13:33:09 - Versuche es noch einmal bitte, du hast noch 6 Versuche!
+hangman: 13:33:09 - Das erratene Wort ist: 
+hangman: 13:33:09 - _esü~
+hangman: 13:33:09 - 0 Versuche wurden aufgrund richtiger Eingabe gutgeschrieben.
+
+hangman: 13:33:09 - Versuche es noch einmal bitte, du hast noch 6 Versuche!
+hangman: 13:33:09 - Das erratene Wort ist: 
+hangman: 13:33:09 - _esü~
+hangman: 13:33:09 - Der eingebene Versuchsbuchstabe ist: w.
+hangman: 13:33:09 - 0 Versuche wurden aufgrund richtiger Eingabe gutgeschrieben.
+
+hangman: 13:33:09 - Versuche es noch einmal bitte, du hast noch 5 Versuche!
+hangman: 13:33:09 - Das erratene Wort ist: 
+hangman: 13:33:09 - _esü~
+hangman: 13:33:09 - 0 Versuche wurden aufgrund richtiger Eingabe gutgeschrieben.
+
+hangman: 13:33:09 - Versuche es noch einmal bitte, du hast noch 5 Versuche!
+hangman: 13:33:09 - Das erratene Wort ist: 
+hangman: 13:33:09 - _esü~
+hangman: 13:33:09 - 0 Versuche wurden aufgrund richtiger Eingabe gutgeschrieben.
+
+hangman: 13:33:09 - Versuche es noch einmal bitte, du hast noch 5 Versuche!
+hangman: 13:33:09 - Das erratene Wort ist: 
+hangman: 13:33:09 - _esü~
+hangman: 13:33:11 - Der eingebene Versuchsbuchstabe ist: n.
+hangman: 13:33:11 - 0 Versuche wurden aufgrund richtiger Eingabe gutgeschrieben.
+
+hangman: 13:33:11 - Versuche es noch einmal bitte, du hast noch 4 Versuche!
+hangman: 13:33:11 - Das erratene Wort ist: 
+hangman: 13:33:11 - _esü~
+hangman: 13:33:11 - 0 Versuche wurden aufgrund richtiger Eingabe gutgeschrieben.
+
+hangman: 13:33:11 - Versuche es noch einmal bitte, du hast noch 4 Versuche!
+hangman: 13:33:11 - Das erratene Wort ist: 
+hangman: 13:33:11 - _esü~
+hangman: 13:33:11 - 0 Versuche wurden aufgrund richtiger Eingabe gutgeschrieben.
+
+hangman: 13:33:11 - Versuche es noch einmal bitte, du hast noch 4 Versuche!
+hangman: 13:33:11 - Das erratene Wort ist: 
+hangman: 13:33:11 - _esü~
+hangman: 13:33:12 - Der eingebene Versuchsbuchstabe ist: c.
+hangman: 13:33:12 - 0 Versuche wurden aufgrund richtiger Eingabe gutgeschrieben.
+
+hangman: 13:33:12 - Versuche es noch einmal bitte, du hast noch 3 Versuche!
+hangman: 13:33:12 - Das erratene Wort ist: 
+hangman: 13:33:12 - _esü~
+hangman: 13:33:12 - 0 Versuche wurden aufgrund richtiger Eingabe gutgeschrieben.
+
+hangman: 13:33:12 - Versuche es noch einmal bitte, du hast noch 3 Versuche!
+hangman: 13:33:12 - Das erratene Wort ist: 
+hangman: 13:33:12 - _esü~
+hangman: 13:33:12 - 0 Versuche wurden aufgrund richtiger Eingabe gutgeschrieben.
+
+hangman: 13:33:12 - Versuche es noch einmal bitte, du hast noch 3 Versuche!
+hangman: 13:33:12 - Das erratene Wort ist: 
+hangman: 13:33:12 - _esü~
+hangman: 13:33:13 - Der eingebene Versuchsbuchstabe ist: x.
+hangman: 13:33:13 - 0 Versuche wurden aufgrund richtiger Eingabe gutgeschrieben.
+
+hangman: 13:33:13 - Versuche es noch einmal bitte, du hast noch 2 Versuche!
+hangman: 13:33:13 - Das erratene Wort ist: 
+hangman: 13:33:13 - _esü~
+hangman: 13:33:13 - 0 Versuche wurden aufgrund richtiger Eingabe gutgeschrieben.
+
+hangman: 13:33:13 - Versuche es noch einmal bitte, du hast noch 2 Versuche!
+hangman: 13:33:13 - Das erratene Wort ist: 
+hangman: 13:33:13 - _esü~
+hangman: 13:33:13 - 0 Versuche wurden aufgrund richtiger Eingabe gutgeschrieben.
+
+hangman: 13:33:13 - Versuche es noch einmal bitte, du hast noch 2 Versuche!
+hangman: 13:33:13 - Das erratene Wort ist: 
+hangman: 13:33:13 - _esü~
+hangman: 13:33:16 - Der eingebene Versuchsbuchstabe ist: a.
+hangman: 13:33:16 - 0 Versuche wurden aufgrund richtiger Eingabe gutgeschrieben.
+
+hangman: 13:33:16 - Versuche es noch einmal bitte, du hast noch 1 Versuche!
+hangman: 13:33:16 - Das erratene Wort ist: 
+hangman: 13:33:16 - _esü~
+hangman: 13:33:16 - 0 Versuche wurden aufgrund richtiger Eingabe gutgeschrieben.
+
+hangman: 13:33:16 - Versuche es noch einmal bitte, du hast noch 1 Versuche!
+hangman: 13:33:16 - Das erratene Wort ist: 
+hangman: 13:33:16 - _esü~
+hangman: 13:33:16 - 0 Versuche wurden aufgrund richtiger Eingabe gutgeschrieben.
+
+hangman: 13:33:16 - Versuche es noch einmal bitte, du hast noch 1 Versuche!
+hangman: 13:33:16 - Das erratene Wort ist: 
+hangman: 13:33:16 - _esü~
+hangman: 13:33:18 - Der eingebene Versuchsbuchstabe ist: k.
+hangman: 13:33:18 - 0 Versuche wurden aufgrund richtiger Eingabe gutgeschrieben.
+
+hangman: 13:33:18 - Ende, vorbei, keine Versuche mehr, du hast das Spiel verloren.
+hangman: 13:33:18 - 0 Versuche wurden aufgrund richtiger Eingabe gutgeschrieben.
+
+hangman: 13:33:18 - Versuche es noch einmal bitte, du hast noch -10 Versuche!
+hangman: 13:33:18 - Das erratene Wort ist: 
+hangman: 13:33:18 - _esü~
+hangman: 13:33:18 - 0 Versuche wurden aufgrund richtiger Eingabe gutgeschrieben.
+
+hangman: 13:33:18 - Versuche es noch einmal bitte, du hast noch -10 Versuche!
+hangman: 13:33:18 - Das erratene Wort ist: 
+hangman: 13:33:18 - _esü~
+hangman: 13:33:18 - Diese Spielrunde ist vorbei.
+hangman: 13:33:18 - Hangman Spiel Beginn
+
+hangman: 13:33:18 - Das zu erratene Wort ist: 
+hangman: 13:33:18 - Die Wortlaenge ist: 0
+hangman: 13:33:18 - Das erratene Wort ist: 
+hangman: 13:33:18 - _esü~
+hangman: 13:33:18 - hip hip hurra. Alles richtig.
+hangman: 13:33:18 - Diese Spielrunde ist vorbei.
+hangman: 13:33:18 - Game over.
+hangman: 13:34:57 - Spielrunden angegeben: 2
+
+hangman: 13:35:52 - Spielrunden angegeben: 2
+
+hangman: 13:36:20 - Hangman Spiel Beginn
+
+hangman: 13:36:31 - Das zu erratene Wort ist: bo
+hangman: 13:39:01 - Spielrunden angegeben: 2
+
+hangman: 13:39:16 - Hangman Spiel Beginn
+
+hangman: 13:42:14 - Das zu erratene Wort ist: je
+hangman: 13:42:34 - Die Wortlaenge ist: 2
+hangman: 13:42:34 - Das erratene Wort ist: 
+hangman: 13:42:34 - __÷ÿ
+hangman: 13:42:37 - Der eingebene Versuchsbuchstabe ist: j.
+hangman: 13:42:37 - hurra, Der Buchstabe: j kommt tatsÃ¤chlich vor.
+hangman: 13:42:37 - 1 Versuche wurden aufgrund richtiger Eingabe gutgeschrieben.
+
+hangman: 13:42:37 - Versuche es noch einmal bitte, du hast noch 5 Versuche!
+hangman: 13:42:37 - Das erratene Wort ist: 
+hangman: 13:42:37 - j_÷ÿ
+hangman: 13:42:37 - 1 Versuche wurden aufgrund richtiger Eingabe gutgeschrieben.
+
+hangman: 13:42:37 - Versuche es noch einmal bitte, du hast noch 6 Versuche!
+hangman: 13:42:37 - Das erratene Wort ist: 
+hangman: 13:42:37 - j_÷ÿ
+hangman: 13:42:39 - Der eingebene Versuchsbuchstabe ist: e.
+hangman: 13:42:39 - 0 Versuche wurden aufgrund richtiger Eingabe gutgeschrieben.
+
+hangman: 13:42:39 - Versuche es noch einmal bitte, du hast noch 5 Versuche!
+hangman: 13:42:39 - Das erratene Wort ist: 
+hangman: 13:42:39 - j_÷ÿ
+hangman: 13:42:39 - hurra, Der Buchstabe: e kommt tatsÃ¤chlich vor.
+hangman: 13:42:39 - 1 Versuche wurden aufgrund richtiger Eingabe gutgeschrieben.
+
+hangman: 13:42:39 - Versuche es noch einmal bitte, du hast noch 6 Versuche!
+hangman: 13:42:39 - Das erratene Wort ist: 
+hangman: 13:42:39 - je÷ÿ
+hangman: 13:42:39 - hip hip hurra. Alles richtig.
+hangman: 13:42:44 - Diese Spielrunde ist vorbei.
+hangman: 13:42:44 - Hangman Spiel Beginn
+
+hangman: 13:43:26 - Spielrunden angegeben: 2
+
+hangman: 13:43:26 - Hangman Spiel Beginn
+
+hangman: 13:43:32 - Das zu erratene Wort ist: bo
+hangman: 13:43:32 - Die Wortlaenge ist: 2
+hangman: 13:43:32 - Das erratene Wort ist: 
+hangman: 13:43:32 - __÷ÿ
+hangman: 13:43:33 - Der eingebene Versuchsbuchstabe ist: o.
+hangman: 13:43:33 - 0 Versuche wurden aufgrund richtiger Eingabe gutgeschrieben.
+
+hangman: 13:43:33 - Versuche es noch einmal bitte, du hast noch 4 Versuche!
+hangman: 13:43:33 - Das erratene Wort ist: 
+hangman: 13:43:33 - __÷ÿ
+hangman: 13:43:33 - hurra, Der Buchstabe: o kommt tatsÃ¤chlich vor.
+hangman: 13:43:33 - 1 Versuche wurden aufgrund richtiger Eingabe gutgeschrieben.
+
+hangman: 13:43:33 - Versuche es noch einmal bitte, du hast noch 5 Versuche!
+hangman: 13:43:33 - Das erratene Wort ist: 
+hangman: 13:43:33 - _o÷ÿ
+hangman: 13:43:34 - Der eingebene Versuchsbuchstabe ist: w.
+hangman: 13:43:34 - 0 Versuche wurden aufgrund richtiger Eingabe gutgeschrieben.
+
+hangman: 13:43:34 - Versuche es noch einmal bitte, du hast noch 4 Versuche!
+hangman: 13:43:34 - Das erratene Wort ist: 
+hangman: 13:43:34 - _o÷ÿ
+hangman: 13:43:34 - 0 Versuche wurden aufgrund richtiger Eingabe gutgeschrieben.
+
+hangman: 13:43:34 - Versuche es noch einmal bitte, du hast noch 4 Versuche!
+hangman: 13:43:34 - Das erratene Wort ist: 
+hangman: 13:43:34 - _o÷ÿ
+hangman: 13:43:36 - Der eingebene Versuchsbuchstabe ist: l.
+hangman: 13:43:36 - 0 Versuche wurden aufgrund richtiger Eingabe gutgeschrieben.
+
+hangman: 13:43:36 - Versuche es noch einmal bitte, du hast noch 3 Versuche!
+hangman: 13:43:36 - Das erratene Wort ist: 
+hangman: 13:43:36 - _o÷ÿ
+hangman: 13:43:36 - 0 Versuche wurden aufgrund richtiger Eingabe gutgeschrieben.
+
+hangman: 13:43:36 - Versuche es noch einmal bitte, du hast noch 3 Versuche!
+hangman: 13:43:36 - Das erratene Wort ist: 
+hangman: 13:43:36 - _o÷ÿ
+hangman: 13:43:37 - Der eingebene Versuchsbuchstabe ist: b.
+hangman: 13:43:37 - hurra, Der Buchstabe: b kommt tatsÃ¤chlich vor.
+hangman: 13:43:37 - 1 Versuche wurden aufgrund richtiger Eingabe gutgeschrieben.
+
+hangman: 13:43:37 - Versuche es noch einmal bitte, du hast noch 3 Versuche!
+hangman: 13:43:37 - Das erratene Wort ist: 
+hangman: 13:43:37 - bo÷ÿ
+hangman: 13:43:37 - 1 Versuche wurden aufgrund richtiger Eingabe gutgeschrieben.
+
+hangman: 13:43:37 - Versuche es noch einmal bitte, du hast noch 4 Versuche!
+hangman: 13:43:37 - Das erratene Wort ist: 
+hangman: 13:43:37 - bo÷ÿ
+hangman: 13:43:37 - hip hip hurra. Alles richtig.
+hangman: 13:43:37 - Diese Spielrunde ist vorbei.
+hangman: 13:43:37 - Hangman Spiel Beginn
+
+hangman: 13:43:40 - Das zu erratene Wort ist: jin
+hangman: 13:43:40 - Die Wortlaenge ist: 3
+hangman: 13:43:40 - Das erratene Wort ist: 
+hangman: 13:43:40 - ___ÿ
+hangman: 13:43:42 - Der eingebene Versuchsbuchstabe ist: j.
+hangman: 13:43:42 - hurra, Der Buchstabe: j kommt tatsÃ¤chlich vor.
+hangman: 13:43:42 - 1 Versuche wurden aufgrund richtiger Eingabe gutgeschrieben.
+
+hangman: 13:43:42 - Versuche es noch einmal bitte, du hast noch 7 Versuche!
+hangman: 13:43:42 - Das erratene Wort ist: 
+hangman: 13:43:42 - j__ÿ
+hangman: 13:43:42 - 1 Versuche wurden aufgrund richtiger Eingabe gutgeschrieben.
+
+hangman: 13:43:42 - Versuche es noch einmal bitte, du hast noch 8 Versuche!
+hangman: 13:43:42 - Das erratene Wort ist: 
+hangman: 13:43:42 - j__ÿ
+hangman: 13:43:42 - 1 Versuche wurden aufgrund richtiger Eingabe gutgeschrieben.
+
+hangman: 13:43:42 - Versuche es noch einmal bitte, du hast noch 9 Versuche!
+hangman: 13:43:42 - Das erratene Wort ist: 
+hangman: 13:43:42 - j__ÿ
+hangman: 13:43:43 - Der eingebene Versuchsbuchstabe ist: i.
+hangman: 13:43:43 - 0 Versuche wurden aufgrund richtiger Eingabe gutgeschrieben.
+
+hangman: 13:43:43 - Versuche es noch einmal bitte, du hast noch 8 Versuche!
+hangman: 13:43:43 - Das erratene Wort ist: 
+hangman: 13:43:43 - j__ÿ
+hangman: 13:43:43 - hurra, Der Buchstabe: i kommt tatsÃ¤chlich vor.
+hangman: 13:43:43 - 1 Versuche wurden aufgrund richtiger Eingabe gutgeschrieben.
+
+hangman: 13:43:43 - Versuche es noch einmal bitte, du hast noch 9 Versuche!
+hangman: 13:43:43 - Das erratene Wort ist: 
+hangman: 13:43:43 - ji_ÿ
+hangman: 13:43:43 - 1 Versuche wurden aufgrund richtiger Eingabe gutgeschrieben.
+
+hangman: 13:43:43 - Versuche es noch einmal bitte, du hast noch 10 Versuche!
+hangman: 13:43:43 - Das erratene Wort ist: 
+hangman: 13:43:43 - ji_ÿ
+hangman: 13:43:43 - Der eingebene Versuchsbuchstabe ist: n.
+hangman: 13:43:43 - 0 Versuche wurden aufgrund richtiger Eingabe gutgeschrieben.
+
+hangman: 13:43:43 - Versuche es noch einmal bitte, du hast noch 9 Versuche!
+hangman: 13:43:43 - Das erratene Wort ist: 
+hangman: 13:43:43 - ji_ÿ
+hangman: 13:43:43 - 0 Versuche wurden aufgrund richtiger Eingabe gutgeschrieben.
+
+hangman: 13:43:43 - Versuche es noch einmal bitte, du hast noch 9 Versuche!
+hangman: 13:43:43 - Das erratene Wort ist: 
+hangman: 13:43:43 - ji_ÿ
+hangman: 13:43:43 - hurra, Der Buchstabe: n kommt tatsÃ¤chlich vor.
+hangman: 13:43:43 - 1 Versuche wurden aufgrund richtiger Eingabe gutgeschrieben.
+
+hangman: 13:43:43 - Versuche es noch einmal bitte, du hast noch 10 Versuche!
+hangman: 13:43:43 - Das erratene Wort ist: 
+hangman: 13:43:43 - jinÿ
+hangman: 13:43:43 - hip hip hurra. Alles richtig.
+hangman: 13:43:43 - Diese Spielrunde ist vorbei.
+hangman: 13:43:43 - Game over.
