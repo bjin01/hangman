@@ -115,7 +115,7 @@ int zeigewort(struct Wortspiel *w) {
 	
 	int s;
 	char* logmessage;
-	if(0 > asprintf(&logmessage, "Das erratene Wort ist: ")) return printf("error happened.");
+	if(0 > asprintf(&logmessage, "Das erratene Wort ist: ")) return 1;
 	print_to_file(logmessage, show);
 	free(logmessage);
 	
@@ -124,7 +124,7 @@ int zeigewort(struct Wortspiel *w) {
 		printf("%c ", w -> erratenes_wort[s]);
 	}
 	printf("\n");
-	if(0 > asprintf(&logmessage, "%s", w -> erratenes_wort)) return printf("error happened.");
+	if(0 > asprintf(&logmessage, "%s", w -> erratenes_wort)) return 1;
 	print_to_file(logmessage, no_show);
 	free(logmessage);
 	return 0;
@@ -148,7 +148,7 @@ char * lesen_von_datei(char *wortfile) {
     	}
 		tot = i;
 		char* logmessage;
-		asprintf(&logmessage, "The content of the file %s is: ",wortfile);
+		/* asprintf(&logmessage, "The content of the file %s is: ",wortfile);
 		print_to_file(logmessage, no_show);
 		free(logmessage);
  
@@ -156,15 +156,13 @@ char * lesen_von_datei(char *wortfile) {
 			asprintf(&logmessage, " %s", lines_from_file[i]);
 			print_to_file(logmessage, no_show);
 			free(logmessage);
-		}
+		} */
 		i = 0;
 		srand(time(0));
 		num = (rand() % (tot - 0 + 1)) + 0;
 		
 		randam_wort = lines_from_file[num];
 		printf("\n");
-		
-
 	}
 
 	return randam_wort;
@@ -195,23 +193,23 @@ int main(int argc, char *argv[]) {
         { 
             case 'i':
 				wortliste = optarg;
-				if(0 > asprintf(&logmessage, "Wortliste Datei: %s\n", wortliste)) return printf("error happened.");
+				if(0 > asprintf(&logmessage, "Wortliste Datei: %s\n", wortliste)) return 1;
 				print_to_file(logmessage, show);
 				free(logmessage); 
                 break;
             case 'r': 
 				spielrunden = atoi(optarg);
-				if(0 > asprintf(&logmessage, "Spielrunden angegeben: %d\n", spielrunden)) return printf("error happened.");
+				if(0 > asprintf(&logmessage, "Spielrunden angegeben: %d\n", spielrunden)) return 1;
 				print_to_file(logmessage, show);
 				free(logmessage); 
                 break; 
             case ':':
-				if(0 > asprintf(&logmessage, "Die Option braucht einen Wert.\n")) return printf("error happened.");
+				if(0 > asprintf(&logmessage, "Die Option braucht einen Wert.\n")) return 1;
 				print_to_file(logmessage, show);
 				free(logmessage); 
                 break; 
             case '?':
-				if(0 > asprintf(&logmessage, "Die verwendete Option ist unbekannt: %c\n", optopt)) return printf("error happened.");
+				if(0 > asprintf(&logmessage, "Die verwendete Option ist unbekannt: %c\n", optopt)) return 1;
 				print_to_file(logmessage, show);
 				free(logmessage); 
                 break; 
@@ -221,7 +219,7 @@ int main(int argc, char *argv[]) {
 	int z;
 	if (spielrunden == 0) {
 		spielrunden += 1;
-		if(0 > asprintf(&logmessage, "Spielrundenzahl: %d\n", spielrunden)) return printf("error happened.");
+		if(0 > asprintf(&logmessage, "Spielrundenzahl: %d\n", spielrunden)) return 1;
 		print_to_file(logmessage, show);
 		free(logmessage);
 	}
@@ -240,13 +238,12 @@ int main(int argc, char *argv[]) {
 		
 
 		
-		if(0 > asprintf(&logmessage, "Hangman Spiel Beginn\n")) return printf("error happened.");
+		if(0 > asprintf(&logmessage, "Hangman Spiel Beginn\n")) return 1;
 		print_to_file(logmessage, show);
 		free(logmessage);
 		
 		int k;
-	
-		//printf("work[0] is %s\n", &rand_wort);
+
 		if (rw != 0) {
 			
 			for (k = 0; k < rw; k++) {
@@ -280,11 +277,11 @@ int main(int argc, char *argv[]) {
 		* um das Ende des Wortes zu markieren. 
 		*/
 		
-		if(0 > asprintf(&logmessage, "Das zu erratene Wort ist: %s", wort)) return printf("error happened.");
+		if(0 > asprintf(&logmessage, "Das zu erratene Wort ist: %s", wort)) return 1;
 		print_to_file(logmessage, no_show);
 		free(logmessage);
 		
-		int a = strlen(wort);
+		int a = (int) strlen(wort);
 		int e;
 		char unterstrich[a];
 		/* Die Anzahl der max. Versuche beträgt das doppelte von Wortzeichenanzahl. */
@@ -298,7 +295,7 @@ int main(int argc, char *argv[]) {
 			wortspiel1.erratenes_wort[e] = '_';
 		}
 		/*printf("\nDie Wortlaenge ist %d\n", wortspiel1.wortlaenge);*/
-		if(0 > asprintf(&logmessage, "Die Wortlaenge ist: %d", wortspiel1.wortlaenge)) return printf("error happened.");
+		if(0 > asprintf(&logmessage, "Die Wortlaenge ist: %d", wortspiel1.wortlaenge)) return 1;
 		print_to_file(logmessage, show);
 		free(logmessage);
 		zeigewort(&wortspiel1);
@@ -321,7 +318,7 @@ int main(int argc, char *argv[]) {
 			char buchstabe;
 			if (anzahl_richtiger_buchstaben == a){
 				//wortspiel1.anzahl_versuche = a;
-				if(0 > asprintf(&logmessage, "hip hip hurra. Alles richtig.")) return printf("error happened.");
+				if(0 > asprintf(&logmessage, "hip hip hurra. Alles richtig.")) return 1;
 				print_to_file(logmessage, show);
 				free(logmessage);
 				wortspiel1.anzahl_versuche = -1;
@@ -331,7 +328,7 @@ int main(int argc, char *argv[]) {
 			printf("Gib einen Buchstaben ein: ");
 			scanf(" %c", &buchstabe);
 			wortspiel1.eingaben_buchstabe[0] = buchstabe;
-			if(0 > asprintf(&logmessage, "Der eingebene Versuchsbuchstabe ist: %c.", wortspiel1.eingaben_buchstabe[0])) return printf("error happened.");
+			if(0 > asprintf(&logmessage, "Der eingebene Versuchsbuchstabe ist: %c.", wortspiel1.eingaben_buchstabe[0])) return 1;
 			print_to_file(logmessage, show);
 			free(logmessage);
 			//printf("Der eingegebene Buchstabe ist: %c\n", wortspiel1.eingaben_buchstabe[0]);
@@ -348,14 +345,14 @@ int main(int argc, char *argv[]) {
 				* wenn ja dann wird ein Hinweis ausgegeben.
 				*/ 
 				if (wortspiel1.erratenes_wort[j] == wortspiel1.eingaben_buchstabe[0]) {
-					if(0 > asprintf(&logmessage, "haha, den Buchstaben %c hast du bereits erraten.", wortspiel1.eingaben_buchstabe[0])) return printf("error happened.");
+					if(0 > asprintf(&logmessage, "haha, den Buchstaben %c hast du bereits erraten.", wortspiel1.eingaben_buchstabe[0])) return 1;
 					print_to_file(logmessage, show);
 					free(logmessage);
 				}
 				/* sonst prüfen wir ob der Tipp mit einem Buchstaben übereinstimmt. Wenn ja dann hurra. */
 				else {
 					if(wort[j] == wortspiel1.eingaben_buchstabe[0]) {
-						if(0 > asprintf(&logmessage, "hurra, Der Buchstabe: %c kommt tatsächlich vor.", wortspiel1.eingaben_buchstabe[0])) return printf("error happened.");
+						if(0 > asprintf(&logmessage, "hurra, Der Buchstabe: %c kommt tatsächlich vor.", wortspiel1.eingaben_buchstabe[0])) return 1;
 						print_to_file(logmessage, show);
 						free(logmessage);
 						wortspiel1.erratenes_wort[j] = wortspiel1.eingaben_buchstabe[0];
@@ -375,18 +372,18 @@ int main(int argc, char *argv[]) {
 
 				/* Hier erhöhe ich die Anzahl möglicher Versuche mit der sogenannten Gutschrift gefunden. */
 				wortspiel1.anzahl_versuche = wortspiel1.anzahl_versuche + gefunden;
-				if(0 > asprintf(&logmessage, "%d Versuche wurden aufgrund richtiger Eingabe gutgeschrieben.\n", gefunden)) return printf("error happened.");
+				if(0 > asprintf(&logmessage, "%d Versuche wurden aufgrund richtiger Eingabe gutgeschrieben.\n", gefunden)) return 1;
 				print_to_file(logmessage, show);
 				free(logmessage);
 				
 				/* Die verbleibende Anzahl an Versuchen wird hier berechnet wenn nicht gleich Null ist und dem User angezeigt. */
 				if (wortspiel1.anzahl_versuche - i != 0) {
-					if(0 > asprintf(&logmessage, "Versuche es noch einmal bitte, du hast noch %d Versuche!", wortspiel1.anzahl_versuche - i)) return printf("error happened.");
+					if(0 > asprintf(&logmessage, "Versuche es noch einmal bitte, du hast noch %d Versuche!", wortspiel1.anzahl_versuche - i)) return 1;
 					print_to_file(logmessage, show);
 					free(logmessage);
 				}
 				else {
-					if(0 > asprintf(&logmessage, "Ende, vorbei, keine Versuche mehr, du hast das Spiel verloren.")) return printf("error happened.");
+					if(0 > asprintf(&logmessage, "Ende, vorbei, keine Versuche mehr, du hast das Spiel verloren.")) return 1;
 					print_to_file(logmessage, show);
 					free(logmessage);
 					wortspiel1.anzahl_versuche = -1;
@@ -396,11 +393,11 @@ int main(int argc, char *argv[]) {
 				printf("\n");
 			}
 		}
-		if(0 > asprintf(&logmessage, "Diese Spielrunde ist vorbei.")) return printf("error happened.");
+		if(0 > asprintf(&logmessage, "Diese Spielrunde ist vorbei.")) return 1;
 		print_to_file(logmessage, show);
 		free(logmessage);
 	}
-	if(0 > asprintf(&logmessage, "Game over.")) return printf("error happened.");
+	if(0 > asprintf(&logmessage, "Game over.")) return 1;
 	print_to_file(logmessage, show);
 	free(logmessage);
 	return 0;

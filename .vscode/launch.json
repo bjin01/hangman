@@ -9,7 +9,7 @@
             "type": "cppdbg",
             "request": "launch",
             "program": "${fileDirname}/${fileBasenameNoExtension}",
-            "args": ["-r 2"],
+            "args": ["-i wortliste.txt", "-r 3"],
             "stopAtEntry": false,
             "cwd": "${fileDirname}",
             "environment": [],
